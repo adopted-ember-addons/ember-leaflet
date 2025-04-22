@@ -98,7 +98,7 @@
     "crypto"
   ],
   "engines": {
-    "node": "14.* || 16.* || >= 18"
+    "node": ">= 18"
   },
   "keywords": [
     "ember-addon",
