@@ -1,4 +1,5 @@
-const L = window.L || {};
+import Leaflet from 'leaflet';
+const L = window.L || Leaflet;
 export { L, L as Leaflet };
 
 export { default as CircleLayer } from 'ember-leaflet/components/circle-layer';
