@@ -4,14 +4,9 @@ const EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
 
 module.exports = function (defaults) {
   const app = new EmberAddon(defaults, {
-    fingerprint: {
-      exclude: ['assets/images']
-    },
-    'ember-cli-favicon': {
-      faviconsConfig: {
-        path: '/ADDON_DOCS_ROOT_URL'
-      }
-    }
+    'ember-cli-babel': { enableTypeScriptTransform: true },
+
+    // Add options here
   });
 
   /*
@@ -25,8 +20,8 @@ module.exports = function (defaults) {
   return maybeEmbroider(app, {
     skipBabel: [
       {
-        package: 'qunit'
-      }
-    ]
+        package: 'qunit',
+      },
+    ],
   });
 };

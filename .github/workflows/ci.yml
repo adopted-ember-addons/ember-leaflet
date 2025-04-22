@@ -7,62 +7,64 @@ on:
       - master
   pull_request: {}
 
-env:
-  NODE_VERSION: 14
-
 concurrency:
   group: ci-${{ github.head_ref || github.ref }}
   cancel-in-progress: true
 
 jobs:
   test:
-    name: 'Tests'
+    name: "Tests"
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
       - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
       - name: Install Node
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ env.NODE_VERSION }}
-          cache: npm
+          node-version: 18
+          cache: pnpm
       - name: Install Dependencies
-        run: npm ci
+        run: pnpm install --frozen-lockfile
       - name: Lint
-        run: npm run lint
+        run: pnpm lint
       - name: Run Tests
-        run: npm run test:ember
+        run: pnpm test:ember
 
   floating:
-    name: 'Floating Dependencies'
+    name: "Floating Dependencies"
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
       - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
       - uses: actions/setup-node@v3
         with:
-          node-version: ${{ env.NODE_VERSION }}
-          cache: npm
+          node-version: 18
+          cache: pnpm
       - name: Install Dependencies
-        run: npm install --no-shrinkwrap
+        run: pnpm install --no-lockfile
       - name: Run Tests
-        run: npm run test:ember
+        run: pnpm test:ember
 
   try-scenarios:
     name: ${{ matrix.try-scenario }}
     runs-on: ubuntu-latest
-    needs: 'test'
+    needs: "test"
     timeout-minutes: 10
 
     strategy:
       fail-fast: false
       matrix:
         try-scenario:
-          - ember-lts-3.28-leaflet-0.7.7
-          - ember-lts-4.4
-          - ember-lts-4.8
+          - ember-lts-4.12
+          - ember-lts-5.4
           - ember-release
           - ember-beta
           - ember-canary
@@ -71,48 +73,15 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
       - name: Install Node
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ env.NODE_VERSION }}
-          cache: npm
+          node-version: 18
+          cache: pnpm
       - name: Install Dependencies
-        run: npm ci
+        run: pnpm install --frozen-lockfile
       - name: Run Tests
         run: ./node_modules/.bin/ember try:one ${{ matrix.try-scenario }}
-
-  deploy-app:
-    name: 'Deploy app'
-    runs-on: ubuntu-latest
-    needs: [test, floating, try-scenarios]
-    timeout-minutes: 7
-    # Only run on pushes to the default branch
-    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-    steps:
-      - name: Check out a copy of the repo
-        uses: actions/checkout@v3
-
-      - name: Set up Git user
-        run: |
-          # Set up a Git user for committing
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@users.noreply.github.com"
-          # Copy the Git Auth from the local config
-          git config --global "http.https://github.com/.extraheader" \
-            "$(git config --local --get http.https://github.com/.extraheader)"
-      - name: Install Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-          cache: npm
-
-      - name: Install Dependencies
-        run: npm ci
-      - name: Set ENV
-        # 'master' or 'v1.2.3'
-        # https://github.com/ember-learn/ember-cli-addon-docs/issues/454#issuecomment-584129324
-        # https://github.com/ember-learn/ember-cli-addon-docs/issues/437
-        run: echo "ADDON_DOCS_VERSION_PATH=${GITHUB_REF##*/}" >> $GITHUB_ENV
-
-      - name: Deploy
-        run: npm run-script deploy
