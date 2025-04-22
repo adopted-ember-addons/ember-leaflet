@@ -1,0 +1,7 @@
+ignoredBuiltDependencies:
+  - ember-modal-dialog
+
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - core-js
+  - sharp
