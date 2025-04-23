@@ -3,14 +3,13 @@
 ## Installation
 
 * `git clone <repository-url>`
-* `cd my-addon`
-* `npm install`
+* `cd ember-leaflet`
+* `pnpm install`
 
 ## Linting
 
-* `npm run lint:hbs`
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
+* `pnpm lint`
+* `pnpm lint:fix`
 
 ## Running tests
 
