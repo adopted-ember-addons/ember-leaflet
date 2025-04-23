@@ -22,17 +22,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Install Node
-        uses: actions/setup-node@v3
+      - uses: wyvox/action-setup-pnpm@v2
         with:
-          node-version: ${{ env.NODE_VERSION }}
-          cache: npm
-      - name: Install Dependencies
-        run: npm ci
+          node-version: 18
       - name: Lint
-        run: npm run lint
+        run: pnpm lint
       - name: Run Tests
-        run: npm run test:ember
+        run: pnpm test:ember
 
   floating:
     name: 'Floating Dependencies'
@@ -41,14 +37,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: wyvox/action-setup-pnpm@v2
         with:
-          node-version: ${{ env.NODE_VERSION }}
-          cache: npm
-      - name: Install Dependencies
-        run: npm install --no-shrinkwrap
+          node-version: 18
+          no-lockfile: true
       - name: Run Tests
-        run: npm run test:ember
+        run: pnpm test:ember
 
   try-scenarios:
     name: ${{ matrix.try-scenario }}
@@ -60,9 +54,8 @@ jobs:
       fail-fast: false
       matrix:
         try-scenario:
-          - ember-lts-3.28-leaflet-0.7.7
-          - ember-lts-4.4
           - ember-lts-4.8
+          - ember-lts-4.12
           - ember-release
           - ember-beta
           - ember-canary
@@ -71,13 +64,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Install Node
-        uses: actions/setup-node@v3
+      - uses: wyvox/action-setup-pnpm@v2
         with:
-          node-version: ${{ env.NODE_VERSION }}
-          cache: npm
-      - name: Install Dependencies
-        run: npm ci
+          node-version: 18
       - name: Run Tests
         run: ./node_modules/.bin/ember try:one ${{ matrix.try-scenario }}
 
