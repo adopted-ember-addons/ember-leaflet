@@ -20,12 +20,6 @@ importers:
       '@babel/plugin-transform-class-static-block':
         specifier: ^7.29.7
         version: 7.29.7(@babel/core@7.29.7)
-      '@glimmer/component':
-        specifier: ^1.1.2
-        version: 1.1.2(@babel/core@7.29.7)
-      '@glimmer/tracking':
-        specifier: ^1.1.2
-        version: 1.1.2
       broccoli-funnel:
         specifier: ^3.0.8
         version: 3.0.8
@@ -72,6 +66,12 @@ importers:
       '@embroider/test-setup':
         specifier: ^4.0.0
         version: 4.0.0
+      '@glimmer/component':
+        specifier: ^1.1.2
+        version: 1.1.2(@babel/core@7.29.7)
+      '@glimmer/tracking':
+        specifier: ^1.1.2
+        version: 1.1.2
       broccoli-asset-rev:
         specifier: ^3.0.0
         version: 3.0.0
