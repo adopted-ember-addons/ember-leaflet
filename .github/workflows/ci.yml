@@ -18,7 +18,7 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
       - uses: pnpm/action-setup@v2
         with:
           version: 11
@@ -41,7 +41,7 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
       - uses: pnpm/action-setup@v2
         with:
           version: 11
@@ -75,7 +75,7 @@ jobs:
           - embroider-optimized
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
       - uses: pnpm/action-setup@v2
         with:
           version: 11
@@ -98,7 +98,7 @@ jobs:
     if: github.event_name == 'push' && github.ref == 'refs/heads/master'
     steps:
       - name: Check out a copy of the repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Set up Git user
         run: |
