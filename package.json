@@ -25,10 +25,10 @@
   },
   "homepage": "https://miguelcobain.github.io/ember-leaflet/",
   "devDependencies": {
-    "@babel/eslint-parser": "^7.25.1",
+    "@babel/eslint-parser": "^8.0.0",
     "@glimmer/component": "^1.1.2",
     "@glimmer/tracking": "^1.1.2",
-    "@babel/plugin-proposal-decorators": "^7.24.7",
+    "@babel/plugin-proposal-decorators": "^8.0.0",
     "@ember/optional-features": "^3.0.0",
     "@ember/string": "^3.1.1",
     "@ember/test-helpers": "^3.3.1",
@@ -77,8 +77,8 @@
     "webpack": "^5.95.0"
   },
   "dependencies": {
-    "@babel/core": "^7.25.2",
-    "@babel/plugin-transform-class-static-block": "^7.29.7",
+    "@babel/core": "^8.0.0",
+    "@babel/plugin-transform-class-static-block": "^8.0.0",
     "broccoli-funnel": "^3.0.8",
     "broccoli-merge-trees": "^4.2.0",
     "ember-auto-import": "^2.8.1",
