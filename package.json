@@ -26,7 +26,7 @@
   "homepage": "https://miguelcobain.github.io/ember-leaflet/",
   "devDependencies": {
     "@babel/eslint-parser": "^7.25.1",
-    "@glimmer/component": "^1.1.2",
+    "@glimmer/component": "^2.0.0",
     "@glimmer/tracking": "^1.1.2",
     "@babel/plugin-proposal-decorators": "^7.24.7",
     "@ember/optional-features": "^3.0.0",
