@@ -146,7 +146,7 @@ importers:
         version: 6.1.0
       ember-template-lint-plugin-prettier:
         specifier: ^5.0.0
-        version: 5.0.0(ember-template-lint@6.1.0)(prettier@3.9.1)
+        version: 5.0.0(ember-template-lint@6.1.0)(prettier@3.9.4)
       ember-try:
         specifier: ^3.0.0
         version: 3.0.0
@@ -164,7 +164,7 @@ importers:
         version: 16.6.2(eslint@8.57.1)
       eslint-plugin-prettier:
         specifier: ^5.2.1
-        version: 5.5.6(@types/eslint@8.56.12)(eslint-config-prettier@9.1.2(eslint@8.57.1))(eslint@8.57.1)(prettier@3.9.1)
+        version: 5.5.6(@types/eslint@8.56.12)(eslint-config-prettier@9.1.2(eslint@8.57.1))(eslint@8.57.1)(prettier@3.9.4)
       eslint-plugin-qunit:
         specifier: ^8.1.2
         version: 8.2.6(eslint@8.57.1)
@@ -176,7 +176,7 @@ importers:
         version: 4.7.0
       prettier:
         specifier: ^3.3.3
-        version: 3.9.1
+        version: 3.9.4
       qunit:
         specifier: ^2.22.0
         version: 2.26.0
@@ -194,7 +194,7 @@ importers:
         version: 8.0.0(postcss@8.5.15)(stylelint@15.11.0(typescript@6.0.3))
       stylelint-prettier:
         specifier: ^4.1.0
-        version: 4.1.0(prettier@3.9.1)(stylelint@15.11.0(typescript@6.0.3))
+        version: 4.1.0(prettier@3.9.4)(stylelint@15.11.0(typescript@6.0.3))
       webpack:
         specifier: ^5.95.0
         version: 5.108.1(postcss@8.5.15)
@@ -2993,6 +2993,9 @@ packages:
 
   caniuse-lite@1.0.30001799:
     resolution: {integrity: sha512-hG1bReV+OUU+MOqK4t/ZWI0tZOyz3rqS9XuhOUz1cIcbwBKjOyJEJuw9ER5JuNyqxNk8u/JUVbGibBOL1yrjFw==}
+
+  caniuse-lite@1.0.30001800:
+    resolution: {integrity: sha512-MMHtuAz9Ys840zAY5F4k6fV5GaivZ9sPk+nz0mY+GYVzRBnYkN0mpqkSR92oWRQ19yQWo4HvBV/FnC16AJX8MA==}
 
   capture-exit@2.0.0:
     resolution: {integrity: sha512-PiT/hQmTonHhl/HFGN+Lx3JJUznrVYJ3+AQsnthneZbvW7x+f08Tk7yLJTLEOUvBTbduLeeBkxEaYXUOUrRq6g==}
@@ -7220,8 +7223,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  prettier@3.9.1:
-    resolution: {integrity: sha512-ppiDo2CSwexck1eyZUwJHg/N3nf1+6IRCv7W/VJ5vaLnVCmB7+3CdRfMwoCHBBX6xTrREDTksZ4OZl5SSf4zXA==}
+  prettier@3.9.4:
+    resolution: {integrity: sha512-yWG/o/4oJfo036EKAfK6ACAoDOfHeRHx4tuxkfBZiauURiaSmYwlpOr5LQqKtIkRD2z1PLteme2WoxEnj4tHTg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -11036,9 +11039,9 @@ snapshots:
       '@pnpm/error': 5.0.3
       find-up: 5.0.0
 
-  '@prettier/sync@0.2.1(prettier@3.9.1)':
+  '@prettier/sync@0.2.1(prettier@3.9.4)':
     dependencies:
-      prettier: 3.9.1
+      prettier: 3.9.4
 
   '@sec-ant/readable-stream@0.4.1': {}
 
@@ -13235,11 +13238,13 @@ snapshots:
   caniuse-api@3.0.0:
     dependencies:
       browserslist: 4.28.4
-      caniuse-lite: 1.0.30001799
+      caniuse-lite: 1.0.30001800
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
 
   caniuse-lite@1.0.30001799: {}
+
+  caniuse-lite@1.0.30001800: {}
 
   capture-exit@2.0.0:
     dependencies:
@@ -15225,11 +15230,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-template-lint-plugin-prettier@5.0.0(ember-template-lint@6.1.0)(prettier@3.9.1):
+  ember-template-lint-plugin-prettier@5.0.0(ember-template-lint@6.1.0)(prettier@3.9.4):
     dependencies:
-      '@prettier/sync': 0.2.1(prettier@3.9.1)
+      '@prettier/sync': 0.2.1(prettier@3.9.4)
       ember-template-lint: 6.1.0
-      prettier: 3.9.1
+      prettier: 3.9.4
       prettier-linter-helpers: 1.0.1
 
   ember-template-lint@6.1.0:
@@ -15559,10 +15564,10 @@ snapshots:
       resolve: 1.22.12
       semver: 7.8.5
 
-  eslint-plugin-prettier@5.5.6(@types/eslint@8.56.12)(eslint-config-prettier@9.1.2(eslint@8.57.1))(eslint@8.57.1)(prettier@3.9.1):
+  eslint-plugin-prettier@5.5.6(@types/eslint@8.56.12)(eslint-config-prettier@9.1.2(eslint@8.57.1))(eslint@8.57.1)(prettier@3.9.4):
     dependencies:
       eslint: 8.57.1
-      prettier: 3.9.1
+      prettier: 3.9.4
       prettier-linter-helpers: 1.0.1
       synckit: 0.11.13
     optionalDependencies:
@@ -18587,7 +18592,7 @@ snapshots:
 
   prettier@2.8.8: {}
 
-  prettier@3.9.1: {}
+  prettier@3.9.4: {}
 
   pretty-hrtime@1.0.3: {}
 
@@ -19845,9 +19850,9 @@ snapshots:
       stylelint: 15.11.0(typescript@6.0.3)
       stylelint-config-recommended: 11.0.0(stylelint@15.11.0(typescript@6.0.3))
 
-  stylelint-prettier@4.1.0(prettier@3.9.1)(stylelint@15.11.0(typescript@6.0.3)):
+  stylelint-prettier@4.1.0(prettier@3.9.4)(stylelint@15.11.0(typescript@6.0.3)):
     dependencies:
-      prettier: 3.9.1
+      prettier: 3.9.4
       prettier-linter-helpers: 1.0.1
       stylelint: 15.11.0(typescript@6.0.3)
 
