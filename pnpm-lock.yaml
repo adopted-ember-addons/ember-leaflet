@@ -58,8 +58,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0(@types/node@26.0.1)
       '@ember/string':
-        specifier: ^3.1.1
-        version: 3.1.1
+        specifier: ^4.0.0
+        version: 4.0.1
       '@ember/test-helpers':
         specifier: ^3.3.1
         version: 3.3.1(@babel/core@7.29.7)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))
@@ -83,7 +83,7 @@ importers:
         version: 5.12.0(@babel/core@7.29.7)(@types/node@26.0.1)(handlebars@4.7.9)(underscore@1.13.8)
       ember-cli-addon-docs:
         specifier: ^5.1.0
-        version: 5.2.0(patch_hash=f598e7dcdd06102f3cb3cf6a40fe55c479de48f65f1485e719de2bd3db8dfb16)(@babel/core@7.29.7)(@ember/string@3.1.1)(@ember/test-helpers@3.3.1(@babel/core@7.29.7)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15)))(ember-data@4.11.3(@babel/core@7.29.7)(@ember/string@3.1.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15)))(ember-fetch@8.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))
+        version: 5.2.0(patch_hash=f598e7dcdd06102f3cb3cf6a40fe55c479de48f65f1485e719de2bd3db8dfb16)(@babel/core@7.29.7)(@ember/string@4.0.1)(@ember/test-helpers@3.3.1(@babel/core@7.29.7)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15)))(ember-data@4.11.3(@babel/core@7.29.7)(@ember/string@4.0.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15)))(ember-fetch@8.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))
       ember-cli-addon-docs-yuidoc:
         specifier: ^1.0.0
         version: 1.1.0
@@ -913,9 +913,8 @@ packages:
       '@glint/template':
         optional: true
 
-  '@ember/string@3.1.1':
-    resolution: {integrity: sha512-UbXJ+k3QOrYN4SRPHgXCqYIJ+yWWUg1+vr0H4DhdQPTy8LJfyqwZ2tc5uqpSSnEXE+/1KopHBE5J8GDagAg5cg==}
-    engines: {node: 12.* || 14.* || >= 16}
+  '@ember/string@4.0.1':
+    resolution: {integrity: sha512-VWeng8BSWrIsdPfffOQt/bKwNKJL7+37gPFh/6iZZ9bke+S83kKqkS30poo4bTGfRcMnvAE0ie7txom+iDu81Q==}
 
   '@ember/test-helpers@3.3.1':
     resolution: {integrity: sha512-h4uFBy4pquBtHsHI+tx9S0wtMmn1L+8dkXiDiyoqG1+3e0Awk6GBujiFM9s4ANq6wC8uIhC3wEFyts10h2OAoQ==}
@@ -9966,12 +9965,12 @@ snapshots:
     dependencies:
       postcss-selector-parser: 6.1.4
 
-  '@ember-data/adapter@4.11.3(@babel/core@7.29.7)(@ember-data/store@4.11.3)(@ember/string@3.1.1)(ember-inflector@4.0.3(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15))))(webpack@5.108.3(postcss@8.5.15))':
+  '@ember-data/adapter@4.11.3(@babel/core@7.29.7)(@ember-data/store@4.11.3)(@ember/string@4.0.1)(ember-inflector@4.0.3(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15))))(webpack@5.108.3(postcss@8.5.15))':
     dependencies:
       '@ember-data/private-build-infra': 4.11.3
-      '@ember-data/store': 4.11.3(@babel/core@7.29.7)(@ember-data/model@4.11.3)(@ember-data/record-data@4.11.3)(@ember-data/tracking@4.11.3)(@ember/string@3.1.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))
+      '@ember-data/store': 4.11.3(@babel/core@7.29.7)(@ember-data/model@4.11.3)(@ember-data/record-data@4.11.3)(@ember-data/tracking@4.11.3)(@ember/string@4.0.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))
       '@ember/edition-utils': 1.2.0
-      '@ember/string': 3.1.1
+      '@ember/string': 4.0.1
       '@embroider/macros': 1.20.5(@babel/core@7.29.7)
       ember-auto-import: 2.13.1(webpack@5.108.3(postcss@8.5.15))
       ember-cli-babel: 7.26.11
@@ -9992,11 +9991,11 @@ snapshots:
       - '@glint/template'
       - supports-color
 
-  '@ember-data/debug@4.11.3(@babel/core@7.29.7)(@ember/string@3.1.1)(webpack@5.108.3(postcss@8.5.15))':
+  '@ember-data/debug@4.11.3(@babel/core@7.29.7)(@ember/string@4.0.1)(webpack@5.108.3(postcss@8.5.15))':
     dependencies:
       '@ember-data/private-build-infra': 4.11.3
       '@ember/edition-utils': 1.2.0
-      '@ember/string': 3.1.1
+      '@ember/string': 4.0.1
       '@embroider/macros': 1.20.5(@babel/core@7.29.7)
       ember-auto-import: 2.13.1(webpack@5.108.3(postcss@8.5.15))
       ember-cli-babel: 7.26.11
@@ -10006,14 +10005,14 @@ snapshots:
       - supports-color
       - webpack
 
-  '@ember-data/model@4.11.3(@babel/core@7.29.7)(@ember-data/record-data@4.11.3)(@ember-data/store@4.11.3)(@ember-data/tracking@4.11.3)(@ember/string@3.1.1)(ember-inflector@4.0.3(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15))))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))':
+  '@ember-data/model@4.11.3(@babel/core@7.29.7)(@ember-data/record-data@4.11.3)(@ember-data/store@4.11.3)(@ember-data/tracking@4.11.3)(@ember/string@4.0.1)(ember-inflector@4.0.3(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15))))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))':
     dependencies:
       '@ember-data/canary-features': 4.11.3(@babel/core@7.29.7)
       '@ember-data/private-build-infra': 4.11.3
-      '@ember-data/store': 4.11.3(@babel/core@7.29.7)(@ember-data/model@4.11.3)(@ember-data/record-data@4.11.3)(@ember-data/tracking@4.11.3)(@ember/string@3.1.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))
+      '@ember-data/store': 4.11.3(@babel/core@7.29.7)(@ember-data/model@4.11.3)(@ember-data/record-data@4.11.3)(@ember-data/tracking@4.11.3)(@ember/string@4.0.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))
       '@ember-data/tracking': 4.11.3
       '@ember/edition-utils': 1.2.0
-      '@ember/string': 3.1.1
+      '@ember/string': 4.0.1
       '@embroider/macros': 1.20.5(@babel/core@7.29.7)
       ember-auto-import: 2.13.1(webpack@5.108.3(postcss@8.5.15))
       ember-cached-decorator-polyfill: 1.0.2(@babel/core@7.29.7)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))
@@ -10070,7 +10069,7 @@ snapshots:
     dependencies:
       '@ember-data/canary-features': 4.11.3(@babel/core@7.29.7)
       '@ember-data/private-build-infra': 4.11.3
-      '@ember-data/store': 4.11.3(@babel/core@7.29.7)(@ember-data/model@4.11.3)(@ember-data/record-data@4.11.3)(@ember-data/tracking@4.11.3)(@ember/string@3.1.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))
+      '@ember-data/store': 4.11.3(@babel/core@7.29.7)(@ember-data/model@4.11.3)(@ember-data/record-data@4.11.3)(@ember-data/tracking@4.11.3)(@ember/string@4.0.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))
       '@ember/edition-utils': 1.2.0
       '@embroider/macros': 1.20.5(@babel/core@7.29.7)
       ember-auto-import: 2.13.1(webpack@5.108.3(postcss@8.5.15))
@@ -10083,11 +10082,11 @@ snapshots:
 
   '@ember-data/rfc395-data@0.0.4': {}
 
-  '@ember-data/serializer@4.11.3(@babel/core@7.29.7)(@ember-data/store@4.11.3)(@ember/string@3.1.1)(ember-inflector@4.0.3(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15))))(webpack@5.108.3(postcss@8.5.15))':
+  '@ember-data/serializer@4.11.3(@babel/core@7.29.7)(@ember-data/store@4.11.3)(@ember/string@4.0.1)(ember-inflector@4.0.3(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15))))(webpack@5.108.3(postcss@8.5.15))':
     dependencies:
       '@ember-data/private-build-infra': 4.11.3
-      '@ember-data/store': 4.11.3(@babel/core@7.29.7)(@ember-data/model@4.11.3)(@ember-data/record-data@4.11.3)(@ember-data/tracking@4.11.3)(@ember/string@3.1.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))
-      '@ember/string': 3.1.1
+      '@ember-data/store': 4.11.3(@babel/core@7.29.7)(@ember-data/model@4.11.3)(@ember-data/record-data@4.11.3)(@ember-data/tracking@4.11.3)(@ember/string@4.0.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))
+      '@ember/string': 4.0.1
       '@embroider/macros': 1.20.5(@babel/core@7.29.7)
       ember-auto-import: 2.13.1(webpack@5.108.3(postcss@8.5.15))
       ember-cli-babel: 7.26.11
@@ -10099,19 +10098,19 @@ snapshots:
       - supports-color
       - webpack
 
-  '@ember-data/store@4.11.3(@babel/core@7.29.7)(@ember-data/model@4.11.3)(@ember-data/record-data@4.11.3)(@ember-data/tracking@4.11.3)(@ember/string@3.1.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))':
+  '@ember-data/store@4.11.3(@babel/core@7.29.7)(@ember-data/model@4.11.3)(@ember-data/record-data@4.11.3)(@ember-data/tracking@4.11.3)(@ember/string@4.0.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))':
     dependencies:
       '@ember-data/canary-features': 4.11.3(@babel/core@7.29.7)
       '@ember-data/private-build-infra': 4.11.3
       '@ember-data/tracking': 4.11.3
-      '@ember/string': 3.1.1
+      '@ember/string': 4.0.1
       '@embroider/macros': 1.20.5(@babel/core@7.29.7)
       '@glimmer/tracking': 1.1.2
       ember-auto-import: 2.13.1(webpack@5.108.3(postcss@8.5.15))
       ember-cached-decorator-polyfill: 1.0.2(@babel/core@7.29.7)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))
       ember-cli-babel: 7.26.11
     optionalDependencies:
-      '@ember-data/model': 4.11.3(@babel/core@7.29.7)(@ember-data/record-data@4.11.3)(@ember-data/store@4.11.3)(@ember-data/tracking@4.11.3)(@ember/string@3.1.1)(ember-inflector@4.0.3(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15))))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))
+      '@ember-data/model': 4.11.3(@babel/core@7.29.7)(@ember-data/record-data@4.11.3)(@ember-data/store@4.11.3)(@ember-data/tracking@4.11.3)(@ember/string@4.0.1)(ember-inflector@4.0.3(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15))))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))
       '@ember-data/record-data': 4.11.3(@babel/core@7.29.7)(@ember-data/store@4.11.3)(webpack@5.108.3(postcss@8.5.15))
     transitivePeerDependencies:
       - '@babel/core'
@@ -10148,11 +10147,7 @@ snapshots:
       - '@babel/core'
       - supports-color
 
-  '@ember/string@3.1.1':
-    dependencies:
-      ember-cli-babel: 7.26.11
-    transitivePeerDependencies:
-      - supports-color
+  '@ember/string@4.0.1': {}
 
   '@ember/test-helpers@3.3.1(@babel/core@7.29.7)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))':
     dependencies:
@@ -14226,7 +14221,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-cli-addon-docs@5.2.0(patch_hash=f598e7dcdd06102f3cb3cf6a40fe55c479de48f65f1485e719de2bd3db8dfb16)(@babel/core@7.29.7)(@ember/string@3.1.1)(@ember/test-helpers@3.3.1(@babel/core@7.29.7)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15)))(ember-data@4.11.3(@babel/core@7.29.7)(@ember/string@3.1.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15)))(ember-fetch@8.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15)):
+  ember-cli-addon-docs@5.2.0(patch_hash=f598e7dcdd06102f3cb3cf6a40fe55c479de48f65f1485e719de2bd3db8dfb16)(@babel/core@7.29.7)(@ember/string@4.0.1)(@ember/test-helpers@3.3.1(@babel/core@7.29.7)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15)))(ember-data@4.11.3(@babel/core@7.29.7)(@ember/string@4.0.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15)))(ember-fetch@8.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15)):
     dependencies:
       '@csstools/postcss-sass': 5.1.1(postcss@8.5.15)
       '@ember/render-modifiers': 2.1.0(@babel/core@7.29.7)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))
@@ -14257,10 +14252,10 @@ snapshots:
       ember-code-snippet: 3.0.0
       ember-composable-helpers: 5.0.0
       ember-concurrency: 2.3.7(@babel/core@7.29.7)
-      ember-data: 4.11.3(@babel/core@7.29.7)(@ember/string@3.1.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))
+      ember-data: 4.11.3(@babel/core@7.29.7)(@ember/string@4.0.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))
       ember-fetch: 8.1.2
       ember-keyboard: 8.2.1(@babel/core@7.29.7)(@ember/test-helpers@3.3.1(@babel/core@7.29.7)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15)))
-      ember-modal-dialog: 4.1.5(@ember/string@3.1.1)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(ember-tether@2.0.1)
+      ember-modal-dialog: 4.1.5(@ember/string@4.0.1)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(ember-tether@2.0.1)
       ember-responsive: 5.0.0
       ember-router-generator: 2.0.0
       ember-router-scroll: 4.1.2(@babel/core@7.29.7)
@@ -14944,18 +14939,18 @@ snapshots:
       - '@babel/core'
       - supports-color
 
-  ember-data@4.11.3(@babel/core@7.29.7)(@ember/string@3.1.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15)):
+  ember-data@4.11.3(@babel/core@7.29.7)(@ember/string@4.0.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15)):
     dependencies:
-      '@ember-data/adapter': 4.11.3(@babel/core@7.29.7)(@ember-data/store@4.11.3)(@ember/string@3.1.1)(ember-inflector@4.0.3(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15))))(webpack@5.108.3(postcss@8.5.15))
-      '@ember-data/debug': 4.11.3(@babel/core@7.29.7)(@ember/string@3.1.1)(webpack@5.108.3(postcss@8.5.15))
-      '@ember-data/model': 4.11.3(@babel/core@7.29.7)(@ember-data/record-data@4.11.3)(@ember-data/store@4.11.3)(@ember-data/tracking@4.11.3)(@ember/string@3.1.1)(ember-inflector@4.0.3(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15))))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))
+      '@ember-data/adapter': 4.11.3(@babel/core@7.29.7)(@ember-data/store@4.11.3)(@ember/string@4.0.1)(ember-inflector@4.0.3(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15))))(webpack@5.108.3(postcss@8.5.15))
+      '@ember-data/debug': 4.11.3(@babel/core@7.29.7)(@ember/string@4.0.1)(webpack@5.108.3(postcss@8.5.15))
+      '@ember-data/model': 4.11.3(@babel/core@7.29.7)(@ember-data/record-data@4.11.3)(@ember-data/store@4.11.3)(@ember-data/tracking@4.11.3)(@ember/string@4.0.1)(ember-inflector@4.0.3(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15))))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))
       '@ember-data/private-build-infra': 4.11.3
       '@ember-data/record-data': 4.11.3(@babel/core@7.29.7)(@ember-data/store@4.11.3)(webpack@5.108.3(postcss@8.5.15))
-      '@ember-data/serializer': 4.11.3(@babel/core@7.29.7)(@ember-data/store@4.11.3)(@ember/string@3.1.1)(ember-inflector@4.0.3(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15))))(webpack@5.108.3(postcss@8.5.15))
-      '@ember-data/store': 4.11.3(@babel/core@7.29.7)(@ember-data/model@4.11.3)(@ember-data/record-data@4.11.3)(@ember-data/tracking@4.11.3)(@ember/string@3.1.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))
+      '@ember-data/serializer': 4.11.3(@babel/core@7.29.7)(@ember-data/store@4.11.3)(@ember/string@4.0.1)(ember-inflector@4.0.3(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15))))(webpack@5.108.3(postcss@8.5.15))
+      '@ember-data/store': 4.11.3(@babel/core@7.29.7)(@ember-data/model@4.11.3)(@ember-data/record-data@4.11.3)(@ember-data/tracking@4.11.3)(@ember/string@4.0.1)(@glimmer/tracking@1.1.2)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(webpack@5.108.3(postcss@8.5.15))
       '@ember-data/tracking': 4.11.3
       '@ember/edition-utils': 1.2.0
-      '@ember/string': 3.1.1
+      '@ember/string': 4.0.1
       '@embroider/macros': 1.20.5(@babel/core@7.29.7)
       '@glimmer/env': 0.1.7
       broccoli-merge-trees: 4.2.0
@@ -15070,10 +15065,10 @@ snapshots:
       - '@babel/core'
       - supports-color
 
-  ember-modal-dialog@4.1.5(@ember/string@3.1.1)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(ember-tether@2.0.1):
+  ember-modal-dialog@4.1.5(@ember/string@4.0.1)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))(ember-tether@2.0.1):
     dependencies:
       '@babel/core': 7.29.7
-      '@ember/string': 3.1.1
+      '@ember/string': 4.0.1
       '@embroider/macros': 1.20.5(@babel/core@7.29.7)
       '@embroider/util': 1.13.5(@babel/core@7.29.7)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.108.3(postcss@8.5.15)))
       ember-cli-babel: 8.3.1(@babel/core@7.29.7)
