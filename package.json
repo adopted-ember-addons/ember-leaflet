@@ -83,7 +83,7 @@
     "broccoli-merge-trees": "^4.2.0",
     "ember-auto-import": "^2.8.1",
     "ember-cli-babel": "^8.2.0",
-    "ember-cli-htmlbars": "^6.3.0",
+    "ember-cli-htmlbars": "^7.0.0",
     "ember-composability-tools": "^1.2.0",
     "ember-render-helpers": "^0.2.1 || ^1.0.0",
     "fastboot-transform": "^0.1.3",
