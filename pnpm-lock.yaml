@@ -146,7 +146,7 @@ importers:
         version: 6.1.0
       ember-template-lint-plugin-prettier:
         specifier: ^5.0.0
-        version: 5.0.0(ember-template-lint@6.1.0)(prettier@3.9.4)
+        version: 5.0.0(ember-template-lint@6.1.0)(prettier@3.9.5)
       ember-try:
         specifier: ^3.0.0
         version: 3.0.0
@@ -164,7 +164,7 @@ importers:
         version: 16.6.2(eslint@8.57.1)
       eslint-plugin-prettier:
         specifier: ^5.2.1
-        version: 5.5.6(@types/eslint@8.56.12)(eslint-config-prettier@9.1.2(eslint@8.57.1))(eslint@8.57.1)(prettier@3.9.4)
+        version: 5.5.6(@types/eslint@8.56.12)(eslint-config-prettier@9.1.2(eslint@8.57.1))(eslint@8.57.1)(prettier@3.9.5)
       eslint-plugin-qunit:
         specifier: ^8.1.2
         version: 8.2.6(eslint@8.57.1)
@@ -176,7 +176,7 @@ importers:
         version: 4.7.0
       prettier:
         specifier: ^3.3.3
-        version: 3.9.4
+        version: 3.9.5
       qunit:
         specifier: ^2.22.0
         version: 2.26.0
@@ -194,7 +194,7 @@ importers:
         version: 8.0.0(postcss@8.5.15)(stylelint@15.11.0(typescript@6.0.3))
       stylelint-prettier:
         specifier: ^4.1.0
-        version: 4.1.0(prettier@3.9.4)(stylelint@15.11.0(typescript@6.0.3))
+        version: 4.1.0(prettier@3.9.5)(stylelint@15.11.0(typescript@6.0.3))
       webpack:
         specifier: ^5.95.0
         version: 5.108.3(postcss@8.5.15)
@@ -2562,6 +2562,11 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
+  baseline-browser-mapping@2.10.42:
+    resolution: {integrity: sha512-c/jurFrDLyui7o1J86yLkRu4LMsTYcBohveus7/I2Hzdn9KIP2bdJPTue/lR1KH46enoPbD77GKeSYNdyPoD3Q==}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+
   basic-auth@2.0.1:
     resolution: {integrity: sha512-NF+epuEdnUYVlGuhaxbbq+dvJttwLnGY+YixlXlME5KpQ5W3CnXA5cVTneY3SPbPDRkcjMbifrwmFYcClgOZeg==}
     engines: {node: '>= 0.8'}
@@ -2896,6 +2901,11 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
+  browserslist@4.28.5:
+    resolution: {integrity: sha512-Cu2E6QejHWzuDMTkuwgpABFgDfZrXLQq5V13YOACZx4mFAG4IwGTbTfHPMr4WtxlHoXSM8FIuRwYYCz5XiabaQ==}
+    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
+    hasBin: true
+
   bser@2.1.1:
     resolution: {integrity: sha512-gQxTNE/GAfIIrmHLUE3oJyp5FO6HRBfhjnw4/wMmA63ZGDJnWBmgY/lyQBpnDUkGmAhbSe39tx2d/iTOAfglwQ==}
 
@@ -2999,6 +3009,9 @@ packages:
 
   caniuse-lite@1.0.30001800:
     resolution: {integrity: sha512-MMHtuAz9Ys840zAY5F4k6fV5GaivZ9sPk+nz0mY+GYVzRBnYkN0mpqkSR92oWRQ19yQWo4HvBV/FnC16AJX8MA==}
+
+  caniuse-lite@1.0.30001803:
+    resolution: {integrity: sha512-g/uHREV2ZpK9qMalCsWaxmA6ol+DX8GYhuf3T40RKoP+oL7vhRJh8LNt73PCjpnR6l14FzfPrB5Yux4PKm2meg==}
 
   capture-exit@2.0.0:
     resolution: {integrity: sha512-PiT/hQmTonHhl/HFGN+Lx3JJUznrVYJ3+AQsnthneZbvW7x+f08Tk7yLJTLEOUvBTbduLeeBkxEaYXUOUrRq6g==}
@@ -3900,6 +3913,9 @@ packages:
 
   electron-to-chromium@1.5.383:
     resolution: {integrity: sha512-I2484/KkAvl8lm9VyjH2JnbOIV0d/UCqT7gbzs6l+o6Vmn9wgB66uVcKX+Vk6HrXtY6fbWTOEXuv8waDTuFNCw==}
+
+  electron-to-chromium@1.5.389:
+    resolution: {integrity: sha512-cEto7aeOqBfU1D+c5py5pE+ooscKE75JifxLBdFUZsqAxRS6y7kebtxAZvICszSl05gPjYHDTjY+lXpyGvpJbg==}
 
   elliptic@6.6.1:
     resolution: {integrity: sha512-RaddvvMatK2LJHqFJ+YA4WysVN5Ita9E35botqIYspQ4TkRAlCicdzKOjlyv/1Za5RyTNn7di//eEV0uTAfe3g==}
@@ -6616,6 +6632,10 @@ packages:
     resolution: {integrity: sha512-J6l92tKHX6w8Jy5nO1Vuc01NoIiRGi/d6qBKVxh+IQ8Cr3b6HbVNfKiF8ZpFKufTwpwxMmce2W3iQZ861ZRyTg==}
     engines: {node: '>=18'}
 
+  node-releases@2.0.51:
+    resolution: {integrity: sha512-wRNIrw4DmVLKQlbgOMdkMx27Wrpzes2hh5Jtbi2bjPd+4wJstWIqP5A+lscnqbm0xxmT5Bpg8Lec5ItEBwx6BQ==}
+    engines: {node: '>=18'}
+
   node-uuid@1.4.8:
     resolution: {integrity: sha512-TkCET/3rr9mUuRp+CpO7qfgT++aAxfDRaalQhwPFzI9BY/2rCDn6OfpZOVggi1AXfTPpfkTrg5f5WQx5G1uLxA==}
     deprecated: Use uuid module instead
@@ -7233,8 +7253,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  prettier@3.9.4:
-    resolution: {integrity: sha512-yWG/o/4oJfo036EKAfK6ACAoDOfHeRHx4tuxkfBZiauURiaSmYwlpOr5LQqKtIkRD2z1PLteme2WoxEnj4tHTg==}
+  prettier@3.9.5:
+    resolution: {integrity: sha512-/FVl766LpUfB5vXgCYOYa0MeV/441Ia99AeICQIQFTY/Nw0roZwULcXpku5i1/m5kt/baz+s4Zogspd839HSMg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -11053,9 +11073,9 @@ snapshots:
       '@pnpm/error': 5.0.3
       find-up: 5.0.0
 
-  '@prettier/sync@0.2.1(prettier@3.9.4)':
+  '@prettier/sync@0.2.1(prettier@3.9.5)':
     dependencies:
-      prettier: 3.9.4
+      prettier: 3.9.5
 
   '@sec-ant/readable-stream@0.4.1': {}
 
@@ -12370,6 +12390,8 @@ snapshots:
 
   baseline-browser-mapping@2.10.40: {}
 
+  baseline-browser-mapping@2.10.42: {}
+
   basic-auth@2.0.1:
     dependencies:
       safe-buffer: 5.1.2
@@ -13128,6 +13150,14 @@ snapshots:
       node-releases: 2.0.50
       update-browserslist-db: 1.2.3(browserslist@4.28.4)
 
+  browserslist@4.28.5:
+    dependencies:
+      baseline-browser-mapping: 2.10.42
+      caniuse-lite: 1.0.30001803
+      electron-to-chromium: 1.5.389
+      node-releases: 2.0.51
+      update-browserslist-db: 1.2.3(browserslist@4.28.5)
+
   bser@2.1.1:
     dependencies:
       node-int64: 0.4.0
@@ -13255,14 +13285,16 @@ snapshots:
 
   caniuse-api@3.0.0:
     dependencies:
-      browserslist: 4.28.4
-      caniuse-lite: 1.0.30001800
+      browserslist: 4.28.5
+      caniuse-lite: 1.0.30001803
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
 
   caniuse-lite@1.0.30001799: {}
 
   caniuse-lite@1.0.30001800: {}
+
+  caniuse-lite@1.0.30001803: {}
 
   capture-exit@2.0.0:
     dependencies:
@@ -14072,6 +14104,8 @@ snapshots:
   ee-first@1.1.1: {}
 
   electron-to-chromium@1.5.383: {}
+
+  electron-to-chromium@1.5.389: {}
 
   elliptic@6.6.1:
     dependencies:
@@ -15265,11 +15299,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-template-lint-plugin-prettier@5.0.0(ember-template-lint@6.1.0)(prettier@3.9.4):
+  ember-template-lint-plugin-prettier@5.0.0(ember-template-lint@6.1.0)(prettier@3.9.5):
     dependencies:
-      '@prettier/sync': 0.2.1(prettier@3.9.4)
+      '@prettier/sync': 0.2.1(prettier@3.9.5)
       ember-template-lint: 6.1.0
-      prettier: 3.9.4
+      prettier: 3.9.5
       prettier-linter-helpers: 1.0.1
 
   ember-template-lint@6.1.0:
@@ -15599,10 +15633,10 @@ snapshots:
       resolve: 1.22.12
       semver: 7.8.5
 
-  eslint-plugin-prettier@5.5.6(@types/eslint@8.56.12)(eslint-config-prettier@9.1.2(eslint@8.57.1))(eslint@8.57.1)(prettier@3.9.4):
+  eslint-plugin-prettier@5.5.6(@types/eslint@8.56.12)(eslint-config-prettier@9.1.2(eslint@8.57.1))(eslint@8.57.1)(prettier@3.9.5):
     dependencies:
       eslint: 8.57.1
-      prettier: 3.9.4
+      prettier: 3.9.5
       prettier-linter-helpers: 1.0.1
       synckit: 0.11.13
     optionalDependencies:
@@ -18039,6 +18073,8 @@ snapshots:
 
   node-releases@2.0.50: {}
 
+  node-releases@2.0.51: {}
+
   node-uuid@1.4.8: {}
 
   node-watch@0.7.3: {}
@@ -18627,7 +18663,7 @@ snapshots:
 
   prettier@2.8.8: {}
 
-  prettier@3.9.4: {}
+  prettier@3.9.5: {}
 
   pretty-hrtime@1.0.3: {}
 
@@ -19885,9 +19921,9 @@ snapshots:
       stylelint: 15.11.0(typescript@6.0.3)
       stylelint-config-recommended: 11.0.0(stylelint@15.11.0(typescript@6.0.3))
 
-  stylelint-prettier@4.1.0(prettier@3.9.4)(stylelint@15.11.0(typescript@6.0.3)):
+  stylelint-prettier@4.1.0(prettier@3.9.5)(stylelint@15.11.0(typescript@6.0.3)):
     dependencies:
-      prettier: 3.9.4
+      prettier: 3.9.5
       prettier-linter-helpers: 1.0.1
       stylelint: 15.11.0(typescript@6.0.3)
 
@@ -20547,6 +20583,12 @@ snapshots:
   update-browserslist-db@1.2.3(browserslist@4.28.4):
     dependencies:
       browserslist: 4.28.4
+      escalade: 3.2.0
+      picocolors: 1.1.1
+
+  update-browserslist-db@1.2.3(browserslist@4.28.5):
+    dependencies:
+      browserslist: 4.28.5
       escalade: 3.2.0
       picocolors: 1.1.1
 
