@@ -6,6 +6,7 @@ settings:
 
 overrides:
   ember-cli-addon-docs>broccoli-plugin: 4.0.7
+  ember-test-waiters: 3.1.0
 
 patchedDependencies:
   ember-cli-addon-docs@5.2.0: f598e7dcdd06102f3cb3cf6a40fe55c479de48f65f1485e719de2bd3db8dfb16
