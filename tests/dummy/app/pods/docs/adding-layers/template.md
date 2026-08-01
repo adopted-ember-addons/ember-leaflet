@@ -12,22 +12,22 @@ Here are some free tile layer servers you can use.</a> Let's use some cool tiles
 from CartoDB and see how it looks.
 
 <DocsDemo as |demo|>
-<demo.example @name="adding-layers-tile.hbs">
-<LeafletMap @lat={{this.lat}} @lng={{this.lng}} @zoom={{this.zoom}} as |layers|>
-<layers.tile @url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"/>
-</LeafletMap>
-</demo.example>
+  <demo.example @name="adding-layers-tile.hbs">
+    <LeafletMap @lat={{this.lat}} @lng={{this.lng}} @zoom={{this.zoom}} as |layers|>
+      <layers.tile @url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"/>
+    </LeafletMap>
+  </demo.example>
 
-<demo.snippet @name="adding-layers-tile.hbs"/>
-<demo.snippet @name="container.js"/>
+  <demo.snippet @name="adding-layers-tile.hbs"/>
+  <demo.snippet @name="container.js"/>
 </DocsDemo>
 
 Neat. We have tiles, can move the map around and have the default leaflet controls.
 Not bad for three lines of code. Let's now try to add some markers in it.
 
 <DocsDemo as |demo|>
-<demo.example @name="adding-layers-markers.hbs">
-<LeafletMap @lat={{this.lat}} @lng={{this.lng}} @zoom={{this.zoom}} as |layers|>
+  <demo.example @name="adding-layers-markers.hbs">
+    <LeafletMap @lat={{this.lat}} @lng={{this.lng}} @zoom={{this.zoom}} as |layers|>
 
       <layers.tile @url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"/>
 
@@ -44,23 +44,22 @@ Not bad for three lines of code. Let's now try to add some markers in it.
           <h3>Hotel</h3>
         </marker.popup>
       </layers.marker>
-
+      
     </LeafletMap>
+  </demo.example>
 
-</demo.example>
-
-<demo.snippet @name="adding-layers-markers.hbs"/>
-<demo.snippet @name="adding-layers.js"/>
+  <demo.snippet @name="adding-layers-markers.hbs"/>
+  <demo.snippet @name="adding-layers.js"/>
 </DocsDemo>
 
 So, there are two important things to notice here:
 
 1. We now used a different notation to represent the coordinates. Instead of using
-   `lat` and `lng` we used a `[lat, lng]`. You
-   can use these two notations interchangeably.
+`lat` and `lng` we used a `[lat, lng]`. You
+can use these two notations interchangeably.
 
 2. Did you notice how we used `<marker.popup>` inside `<layers.marker>`'s
-   block to specify our popup text?
-   Go ahead and click the markers. It feels Ember and it feels natural.
-   Why not a form in a popup? A component? Why not `{{outlet}}`? Possibilities
-   are endless.
+block to specify our popup text?
+Go ahead and click the markers. It feels Ember and it feels natural.
+Why not a form in a popup? A component? Why not `{{outlet}}`? Possibilities
+are endless.
