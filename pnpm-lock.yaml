@@ -130,8 +130,8 @@ importers:
         specifier: ^9.0.0
         version: 9.0.3(supports-color@10.2.2)
       ember-qunit:
-        specifier: ^8.1.0
-        version: 8.1.1(@babel/core@7.29.7(supports-color@10.2.2))(@ember/test-helpers@3.3.1(@babel/core@7.29.7(supports-color@10.2.2))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(rsvp@4.8.5)(supports-color@10.2.2)(webpack@5.109.2(clean-css@5.3.3)(csso@3.5.1)(postcss@8.5.15)(uglify-js@3.19.3)))(supports-color@10.2.2)(webpack@5.109.2(clean-css@5.3.3)(csso@3.5.1)(postcss@8.5.15)(uglify-js@3.19.3)))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(rsvp@4.8.5)(supports-color@10.2.2)(webpack@5.109.2(clean-css@5.3.3)(csso@3.5.1)(postcss@8.5.15)(uglify-js@3.19.3)))(qunit@2.26.0)(supports-color@10.2.2)
+        specifier: ^9.0.0
+        version: 9.1.0(@ember/test-helpers@3.3.1(@babel/core@7.29.7(supports-color@10.2.2))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(rsvp@4.8.5)(supports-color@10.2.2)(webpack@5.109.2(clean-css@5.3.3)(csso@3.5.1)(postcss@8.5.15)(uglify-js@3.19.3)))(supports-color@10.2.2)(webpack@5.109.2(clean-css@5.3.3)(csso@3.5.1)(postcss@8.5.15)(uglify-js@3.19.3)))(qunit@2.26.0)(supports-color@10.2.2)
       ember-resolver:
         specifier: ^12.0.1
         version: 12.0.1(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(rsvp@4.8.5)(supports-color@10.2.2)(webpack@5.109.2(clean-css@5.3.3)(csso@3.5.1)(postcss@8.5.15)(uglify-js@3.19.3)))(supports-color@10.2.2)
@@ -4001,10 +4001,6 @@ packages:
   ember-cli-test-info@1.0.0:
     resolution: {integrity: sha512-dEVTIpmUfCzweC97NGf6p7L6XKBwV2GmSM4elmzKvkttEp5P7AvGA9uGyN4GqFq+RwhW+2b0I2qlX00w+skm+A==}
 
-  ember-cli-test-loader@3.1.0:
-    resolution: {integrity: sha512-0aocZV9SIoOHiU3hrH3IuLR6busWhTX6UVXgd490hmJkIymmOXNH2+jJoC7Ebkeo3PiOfAdjqhb765QDlHSJOw==}
-    engines: {node: 10.* || >= 12}
-
   ember-cli-typescript-blueprint-polyfill@0.1.0:
     resolution: {integrity: sha512-g0weUTOnHmPGqVZzkQTl3Nbk9fzEdFkEXydCs5mT1qBjXh8eQ6VlmjjGD5/998UXKuA0pLSCVVMbSp/linLzGA==}
 
@@ -4149,11 +4145,10 @@ packages:
     resolution: {integrity: sha512-fedRHUsvq8tIZgOii8jTrfAyeq+la/9H5eAzhNNwEyzo7nDMmqK2SxsyBUGXprd8fOacsPabLlzlucMi/4mUpA==}
     engines: {node: 16.* || >= 18}
 
-  ember-qunit@8.1.1:
-    resolution: {integrity: sha512-nT+6s74j3BKNn+QQY/hINC3Xw3kn0NF0cU9zlgVQmCBWoyis1J24xWrY2LFOMThPmF6lHqcrUb5JwvBD4BXEXg==}
+  ember-qunit@9.1.0:
+    resolution: {integrity: sha512-dE32lSODyv4em0ACBS8PDzrAIPKR75hhSpn/au0qFBlzbdmNA/VVsgv2aoFAVRdlQ0zYJ8EiNPFqsBFciIeXVA==}
     peerDependencies:
       '@ember/test-helpers': '>=3.0.3'
-      ember-source: '>=4.0.0'
       qunit: ^2.13.0
 
   ember-render-helpers@0.2.1:
@@ -14467,12 +14462,6 @@ snapshots:
     dependencies:
       ember-cli-string-utils: 1.1.0
 
-  ember-cli-test-loader@3.1.0(supports-color@10.2.2):
-    dependencies:
-      ember-cli-babel: 7.26.11(supports-color@10.2.2)
-    transitivePeerDependencies:
-      - supports-color
-
   ember-cli-typescript-blueprint-polyfill@0.1.0(supports-color@10.2.2):
     dependencies:
       chalk: 4.1.2
@@ -14918,18 +14907,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-qunit@8.1.1(@babel/core@7.29.7(supports-color@10.2.2))(@ember/test-helpers@3.3.1(@babel/core@7.29.7(supports-color@10.2.2))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(rsvp@4.8.5)(supports-color@10.2.2)(webpack@5.109.2(clean-css@5.3.3)(csso@3.5.1)(postcss@8.5.15)(uglify-js@3.19.3)))(supports-color@10.2.2)(webpack@5.109.2(clean-css@5.3.3)(csso@3.5.1)(postcss@8.5.15)(uglify-js@3.19.3)))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(rsvp@4.8.5)(supports-color@10.2.2)(webpack@5.109.2(clean-css@5.3.3)(csso@3.5.1)(postcss@8.5.15)(uglify-js@3.19.3)))(qunit@2.26.0)(supports-color@10.2.2):
+  ember-qunit@9.1.0(@ember/test-helpers@3.3.1(@babel/core@7.29.7(supports-color@10.2.2))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(rsvp@4.8.5)(supports-color@10.2.2)(webpack@5.109.2(clean-css@5.3.3)(csso@3.5.1)(postcss@8.5.15)(uglify-js@3.19.3)))(supports-color@10.2.2)(webpack@5.109.2(clean-css@5.3.3)(csso@3.5.1)(postcss@8.5.15)(uglify-js@3.19.3)))(qunit@2.26.0)(supports-color@10.2.2):
     dependencies:
       '@ember/test-helpers': 3.3.1(@babel/core@7.29.7(supports-color@10.2.2))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(rsvp@4.8.5)(supports-color@10.2.2)(webpack@5.109.2(clean-css@5.3.3)(csso@3.5.1)(postcss@8.5.15)(uglify-js@3.19.3)))(supports-color@10.2.2)(webpack@5.109.2(clean-css@5.3.3)(csso@3.5.1)(postcss@8.5.15)(uglify-js@3.19.3))
       '@embroider/addon-shim': 1.10.3(supports-color@10.2.2)
-      '@embroider/macros': 1.20.5(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
-      ember-cli-test-loader: 3.1.0(supports-color@10.2.2)
-      ember-source: 5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(rsvp@4.8.5)(supports-color@10.2.2)(webpack@5.109.2(clean-css@5.3.3)(csso@3.5.1)(postcss@8.5.15)(uglify-js@3.19.3))
       qunit: 2.26.0
       qunit-theme-ember: 1.0.0
     transitivePeerDependencies:
-      - '@babel/core'
-      - '@glint/template'
       - supports-color
 
   ember-render-helpers@0.2.1(supports-color@10.2.2):
