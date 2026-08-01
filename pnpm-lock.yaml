@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  ember-cli-addon-docs>broccoli-plugin: 4.0.7
+  ember-cli-addon-docs>broccoli-plugin: 6.0.0
   '@ember/test-waiters': 3.1.0
 
 patchedDependencies:
@@ -2770,6 +2770,10 @@ packages:
   broccoli-plugin@4.0.7:
     resolution: {integrity: sha512-a4zUsWtA1uns1K7p9rExYVYG99rdKeGRymW0qOCNkvDPHQxVi3yVyJHhQbM3EZwdt2E0mnhr5e0c/bPpJ7p3Wg==}
     engines: {node: 10.* || >= 12.*}
+
+  broccoli-plugin@6.0.0:
+    resolution: {integrity: sha512-EyZ7CroBVosQZN9AfCdC9aIoaLytE601AQfmKg2U9EiuNS2K8Gj6Q8gmr8hGOUMGFKSf+yNMn7UCAncCWvgXUg==}
+    engines: {node: '>= 14.14'}
 
   broccoli-postcss-single@5.0.2:
     resolution: {integrity: sha512-r4eWtz/5uihtHwOszViWwV6weJr9VryvaqtVo1DOh4gL+TbTyU+NX+Y+t9TqUw99OtuivMz4uHLLH7zZECbZmw==}
@@ -12635,6 +12639,16 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  broccoli-plugin@6.0.0(supports-color@10.2.2):
+    dependencies:
+      broccoli-node-api: 1.7.0
+      broccoli-output-wrapper: 3.2.5(supports-color@10.2.2)
+      fs-merger: 3.2.1(supports-color@10.2.2)
+      promise-map-series: 0.3.0
+      symlink-or-copy: 1.3.1
+    transitivePeerDependencies:
+      - supports-color
+
   broccoli-postcss-single@5.0.2(supports-color@10.2.2):
     dependencies:
       broccoli-caching-writer: 3.1.0(supports-color@10.2.2)
@@ -13967,7 +13981,7 @@ snapshots:
       broccoli-funnel: 3.0.8(supports-color@10.2.2)
       broccoli-merge-trees: 4.2.0(supports-color@10.2.2)
       broccoli-persistent-filter: 3.1.3(supports-color@10.2.2)
-      broccoli-plugin: 4.0.7(supports-color@10.2.2)
+      broccoli-plugin: 6.0.0(supports-color@10.2.2)
       broccoli-source: 3.0.1
       broccoli-stew: 3.0.0(supports-color@10.2.2)
       chalk: 4.1.2
