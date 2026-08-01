@@ -5,8 +5,8 @@ layers, just like we can render anything else. Let's check out some ways to use
 `{{#if}}` and `{{#each}}`.
 
 <DocsDemo as |demo|>
-  <demo.example @name="just-templates.hbs">
-    <p><label><Input @type="checkbox" @checked={{this.nightMode}}/> Night mode</label></p>
+<demo.example @name="just-templates.hbs">
+<p><label><Input @type="checkbox" @checked={{this.nightMode}}/> Night mode</label></p>
 
     <LeafletMap @lat={{this.lat}} @lng={{this.lng}} @zoom={{this.zoom}} as |layers|>
 
@@ -44,12 +44,12 @@ layers, just like we can render anything else. Let's check out some ways to use
         </li>
       {{/each}}
     </ul>
-  </demo.example>
 
-  <demo.snippet @name="just-templates.hbs"/>
-  <demo.snippet @name="just-templates.js"/>
+</demo.example>
+
+<demo.snippet @name="just-templates.hbs"/>
+<demo.snippet @name="just-templates.js"/>
 </DocsDemo>
-
 
 Try to drag the markers, edit restaurant names and switch "Night mode". Confirm
 that the data flows normally. All of this is done through normal Ember usage.

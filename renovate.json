@@ -1,8 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended"
-  ],
+  "extends": ["config:recommended"],
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true
@@ -13,17 +11,8 @@
       "automerge": true
     },
     {
-      "matchPackageNames": [
-        "@ember/test-helpers",
-        "ember-qunit"
-      ],
-      "matchPackagePatterns": [
-        "^eslint",
-        "^prettier",
-        "^stylelint",
-        "^qunit",
-        "^ember-template-lint"
-      ],
+      "matchPackageNames": ["@ember/test-helpers", "ember-qunit"],
+      "matchPackagePatterns": ["^eslint", "^prettier", "^stylelint", "^qunit", "^ember-template-lint"],
       "automerge": true
     }
   ]

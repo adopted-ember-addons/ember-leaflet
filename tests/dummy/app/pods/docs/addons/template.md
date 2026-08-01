@@ -16,7 +16,7 @@ ember install ember-leaflet-marker-cluster
 This addon will register a new `<layers.marker-cluster>` component and you can use it like in the following example:
 
 <DocsDemo as |demo|>
-  <demo.example @name="marker-cluster.hbs">
+<demo.example @name="marker-cluster.hbs">
 
     <LeafletMap @lat={{this.lat}} @lng={{this.lng}} @zoom={{this.zoom}} as |layers|>
 
@@ -35,10 +35,10 @@ This addon will register a new `<layers.marker-cluster>` component and you can u
 
     </LeafletMap>
 
-  </demo.example>
+</demo.example>
 
-  <demo.snippet @name="marker-cluster.hbs"/>
-  <demo.snippet @name="marker-cluster.js"/>
+<demo.snippet @name="marker-cluster.hbs"/>
+<demo.snippet @name="marker-cluster.js"/>
 </DocsDemo>
 
 ## Creating an addon
@@ -104,10 +104,7 @@ want to yield. You should use it like:
 // addon/components/marker-cluster-layer.js
 import MarkerLayer from 'ember-leaflet/components/marker-layer';
 
-componentsToYield = [
-  ...this.componentsToYield,
-  { as: 'marker', component: MarkerLayer }
-];
+componentsToYield = [...this.componentsToYield, { as: 'marker', component: MarkerLayer }];
 ```
 
 - `as` is the key under which the component will be yielded in the hash
