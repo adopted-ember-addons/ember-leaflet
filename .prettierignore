@@ -1,3 +1,6 @@
+# temporarily ignore docs as Prettier breaks indentation in code blocks
+/tests/dummy/app/pods/*/template.md
+
 # unconventional js
 /blueprints/*/files/
 
