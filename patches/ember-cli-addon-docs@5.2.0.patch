@@ -1,8 +1,0 @@
-diff --git a/lib/utils/compile-markdown.js b/lib/utils/compile-markdown.js
-index bfe9452cb0adf1c5f2d16dacb5b5c53cb40e298b..632a80fea0dc83a377efb620aa270fc10adea364 100644
---- a/lib/utils/compile-markdown.js
-+++ b/lib/utils/compile-markdown.js
-@@ -1,2 +1 @@
--const esmRequire = require('esm')(module, { cjs: true });
--module.exports = esmRequire('../../addon/utils/compile-markdown').default;
-+module.exports = require('../../addon/utils/compile-markdown').default;
