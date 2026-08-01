@@ -1,3 +1,6 @@
+# temporarily ignore docs as Prettier breaks indentation in code blocks
+/tests/dummy/app/pods/docs/*/template.md
+
 # unconventional js
 /blueprints/*/files/
 
@@ -8,6 +11,6 @@
 /coverage/
 !.*
 .*/
-
-# ember-try
-/.node_modules.ember-try/
+/pnpm-lock.yaml
+ember-cli-update.json
+*.html

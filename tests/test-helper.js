@@ -3,7 +3,8 @@ import config from 'dummy/config/environment';
 import * as QUnit from 'qunit';
 import { setApplication } from '@ember/test-helpers';
 import { setup } from 'qunit-dom';
-import { start } from 'ember-qunit';
+import { loadTests } from 'ember-qunit/test-loader';
+import { start, setupEmberOnerrorValidation } from 'ember-qunit';
 import locationsEqual from './assertions/locations-equal';
 import boundsContain from './assertions/bounds-contain';
 
@@ -13,5 +14,6 @@ QUnit.assert.locationsEqual = locationsEqual;
 QUnit.assert.boundsContain = boundsContain;
 
 setup(QUnit.assert);
-
+setupEmberOnerrorValidation();
+loadTests();
 start();
