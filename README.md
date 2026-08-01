@@ -1,12 +1,14 @@
 # ember-leaflet [![CI](https://github.com/miguelcobain/ember-leaflet/workflows/CI/badge.svg)](https://github.com/miguelcobain/ember-leaflet/actions?query=workflow%3ACI) [![Ember Observer Score](http://emberobserver.com/badges/ember-leaflet.svg)](http://emberobserver.com/addons/ember-leaflet) [![npm version](https://badge.fury.io/js/ember-leaflet.svg)](https://badge.fury.io/js/ember-leaflet)
 
-Ember-Leaflet aims to make working with Leaflet layers in your Ember app as easy, declarative and composable as templates make working with DOM.
+## Compatibility
+
+- Ember.js v3.28 or above
+- Ember CLI v3.28 or above
+- Node.js v22 or above
 
 ## Installation
 
-Ember Leaflet requires Ember 3.28+.
-
-To install it run:
+To install Ember Leaflet run:
 
 ```
 ember install ember-leaflet
@@ -72,12 +74,12 @@ Think of your map as a set of layers inside a container. Your main container wil
 ```hbs
 <LeafletMap @lat={{this.lat}} @lng={{this.lng}} @zoom={{this.zoom}} as |layers|>
 
-  <layers.tile @url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png" />
+  <layers.tile @url='http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png' />
 
   <layers.marker @location={{this.emberConfLocation}} as |marker|>
     <marker.popup>
       <h3>The Oregon Convention Center</h3>
-      777 NE Martin Luther King Jr Blvd<br>
+      777 NE Martin Luther King Jr Blvd<br />
       Portland, OR 97232
     </marker.popup>
   </layers.marker>
