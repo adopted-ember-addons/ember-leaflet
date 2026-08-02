@@ -14,13 +14,6 @@ ember install ember-leaflet
 
 This will also add the `leaflet` package to your project.
 
-ember-leaflet is compatible with leaflet 0.7+. If you need to use a legacy version, you can just install it via npm / yarn:
-
-```
-npm install --save-dev leaflet@0.7
-yarn add -D leaflet@0.7
-```
-
 ## Support, Questions, Collaboration
 
 ![Discord](https://img.shields.io/discord/480462759797063690.svg?logo=discord) Join Ember on [Discord](https://discord.gg/zT3asNS)
