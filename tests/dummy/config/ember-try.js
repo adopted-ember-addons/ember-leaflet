@@ -8,18 +8,6 @@ module.exports = async function () {
     packageManager: 'pnpm',
     scenarios: [
       {
-        name: 'ember-lts-3.28-leaflet-0.7.7',
-        npm: {
-          devDependencies: {
-            'ember-cli': '~4.12.0',
-            'ember-source': '~3.28',
-            'ember-leaflet-marker-cluster': '0.2.0',
-            'ember-resolver': '^8.1.0',
-            leaflet: '~0.7.7'
-          }
-        }
-      },
-      {
         name: 'ember-lts-4.12',
         npm: {
           devDependencies: {
