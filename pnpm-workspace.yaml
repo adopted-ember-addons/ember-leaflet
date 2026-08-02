@@ -6,7 +6,7 @@ allowBuilds:
 
 overrides:
   ember-cli-addon-docs>broccoli-plugin: '4.0.7'
-  '@ember/test-waiters': '3.1.0'
+  '@ember/test-waiters': '4.1.2'
 
 patchedDependencies:
   ember-cli-addon-docs@5.2.0: patches/ember-cli-addon-docs@5.2.0.patch
