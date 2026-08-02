@@ -2,8 +2,9 @@
 
 ## Compatibility
 
-- Ember.js v3.28 or above
-- Ember CLI v3.28 or above
+- Ember.js v4.12 or above
+- Ember CLI v4.12 or above
+- Leaflet v1
 - Node.js v22 or above
 
 ## Installation
@@ -15,13 +16,6 @@ ember install ember-leaflet
 ```
 
 This will also add the `leaflet` package to your project.
-
-ember-leaflet is compatible with leaflet 0.7+. If you need to use a legacy version, you can just install it via npm / yarn:
-
-```
-npm install --save-dev leaflet@0.7
-yarn add -D leaflet@0.7
-```
 
 ## Support, Questions, Collaboration
 

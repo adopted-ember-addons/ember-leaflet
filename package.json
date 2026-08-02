@@ -32,6 +32,7 @@
     "@ember/optional-features": "^3.0.0",
     "@ember/string": "^3.1.1",
     "@ember/test-helpers": "^5.4.1",
+    "@ember/test-waiters": "^4.1.2",
     "@embroider/macros": "^1.20.2",
     "@embroider/test-setup": "^4.0.0",
     "@eslint/js": "^9.39.4",
@@ -40,7 +41,7 @@
     "broccoli-asset-rev": "^3.0.0",
     "concurrently": "^10.0.0",
     "ember-cli": "~7.1.0",
-    "ember-cli-addon-docs": "^5.1.0",
+    "ember-cli-addon-docs": "^11.0.0",
     "ember-cli-addon-docs-yuidoc": "^1.0.0",
     "ember-cli-clean-css": "^3.0.0",
     "ember-cli-dependency-checker": "^3.4.0",
@@ -61,13 +62,13 @@
     "ember-resolver": "^13.2.0",
     "ember-source": "~6.12.0",
     "ember-source-channel-url": "^3.0.0",
-    "ember-template-lint": "^6.1.0",
+    "ember-template-lint": "^7.0.0",
     "ember-try": "^4.0.0",
-    "eslint": "^9.39.4",
-    "eslint-config-prettier": "^9.1.2",
-    "eslint-plugin-ember": "^12.7.5",
-    "eslint-plugin-n": "^17.24.0",
-    "eslint-plugin-qunit": "^8.2.6",
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.0.0",
+    "eslint-plugin-ember": "^13.0.0",
+    "eslint-plugin-n": "^17.17.0",
+    "eslint-plugin-qunit": "^8.1.2",
     "globals": "^15.15.0",
     "leaflet": "^1.9.4",
     "loader.js": "^4.7.0",
@@ -95,8 +96,8 @@
     "resolve": "^1.21.0"
   },
   "peerDependencies": {
-    "ember-source": ">= 3.28.0",
-    "leaflet": ">=0.7"
+    "ember-source": ">= 4.12.0",
+    "leaflet": ">= 1.0"
   },
   "fastbootDependencies": [
     "crypto"
@@ -141,5 +142,5 @@
       "git add"
     ]
   },
-  "packageManager": "pnpm@11.17.0+sha512.cca3cea332ad254bb84145f966d19f4879615210346fc92c79a047f23a0d7b3cca3c3792f0076ba1f1831d277efbcf0a9119b31a9a60eca7fb3d6231f331ef72"
+  "packageManager": "pnpm@11.18.0+sha512.33d83c77da82f49fba836925c6f1b841181ec3132b670639bd012f7075f5c7cf634c5f870147c19aae7478fac01df09d8892e880454896edd23ee9b33757563c"
 }
