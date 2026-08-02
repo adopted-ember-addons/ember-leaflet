@@ -1,7 +1,7 @@
 import { computed, defineProperty } from '@ember/object';
 import { run } from '@ember/runloop';
 import { A } from '@ember/array';
-import { module, test, skip } from 'qunit';
+import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
 import { render, settled, click } from '@ember/test-helpers';
 import hbs from 'htmlbars-inline-precompile';
