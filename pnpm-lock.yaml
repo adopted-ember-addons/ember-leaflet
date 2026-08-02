@@ -60,6 +60,9 @@ importers:
       '@ember/test-helpers':
         specifier: ^5.2.1
         version: 5.4.3(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
+      '@ember/test-waiters':
+        specifier: ^4.1.2
+        version: 4.1.2(supports-color@10.2.2)
       '@embroider/macros':
         specifier: ^1.17.2
         version: 1.20.5(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
@@ -18050,7 +18053,7 @@ snapshots:
 
   wide-align@1.1.5:
     dependencies:
-      string-width: 1.0.2
+      string-width: 4.2.3
 
   word-wrap@1.2.5: {}
 
