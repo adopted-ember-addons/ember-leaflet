@@ -65,7 +65,6 @@ jobs:
       fail-fast: false
       matrix:
         try-scenario:
-          - ember-lts-3.28-leaflet-0.7.7
           - ember-lts-4.12
           - ember-lts-5.12
           - ember-lts-6.12
