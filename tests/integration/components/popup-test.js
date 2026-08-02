@@ -9,7 +9,6 @@ import MarkerLayerComponent from 'ember-leaflet/components/marker-layer';
 import PolylineLayerComponent from 'ember-leaflet/components/polyline-layer';
 import locations from '../../helpers/locations';
 /* global L */
-import isLeaflet07 from '../../helpers/is-leaflet-0.7';
 
 // Needed to silence leaflet autodetection error
 L.Icon.Default.imagePath = 'some-path';
@@ -213,7 +212,7 @@ module('Integration | Component | popup layer', function (hooks) {
     assert.strictEqual(arrayPath._layer._popup.options.className, 'exists', 'popup class set on array-path');
   });
 
-  (isLeaflet07(L) ? skip : test)('popup is compatible with markerClusterLayer', async function (assert) {
+  test('popup is compatible with markerClusterLayer', async function (assert) {
     this.set('markerCenter', locations.nyc);
 
     await render(hbs`<LeafletMap @maxZoom={{16}} @zoom={{this.zoom}} @center={{this.center}} as |layers|>
