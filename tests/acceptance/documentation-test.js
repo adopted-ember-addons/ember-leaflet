@@ -19,10 +19,7 @@ module('Acceptance | documentation', function (hooks) {
     await visit('/addons');
 
     assert.strictEqual(currentURL(), '/addons', 'user can open addons page');
-    assert
-      .dom('h1')
-      .exists({ count: 1 }, 'addons page contains headline')
-      .hasText('Addons');
+    assert.dom('h1').exists({ count: 1 }, 'addons page contains headline').hasText('Addons');
   });
 
   module('docs pages', async function () {
@@ -40,7 +37,7 @@ module('Acceptance | documentation', function (hooks) {
       test(`renders docs page: ${title}`, async function (assert) {
         await visit('/docs');
 
-        const linkSelector =`.docs-viewer nav a[href="${path}"]`;
+        const linkSelector = `.docs-viewer nav a[href="${path}"]`;
         assert
           .dom(linkSelector)
           .exists({ count: 1 }, `Link to page ${title} exists`)

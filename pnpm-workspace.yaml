@@ -3,4 +3,3 @@ allowBuilds:
   core-js: true
   ember-modal-dialog: false
   sharp: true
-

@@ -3,9 +3,7 @@ import { waitForFetch } from '@ember/test-waiters';
 
 export default class AddonRoute extends Route {
   async model() {
-    let response = await waitForFetch(
-      fetch('https://registry.npmjs.org/-/v1/search?text=keywords:ember-leaflet')
-    );
+    let response = await waitForFetch(fetch('https://registry.npmjs.org/-/v1/search?text=keywords:ember-leaflet'));
     let data = await response.json();
 
     return data.objects
