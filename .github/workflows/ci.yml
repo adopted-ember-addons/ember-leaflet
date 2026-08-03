@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v7
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v6
         with:
           version: 11
       - name: Install Node
@@ -42,7 +42,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v7
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v6
         with:
           version: 11
       - uses: actions/setup-node@v7
@@ -76,7 +76,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v7
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v6
         with:
           version: 11
       - name: Install Node
@@ -108,7 +108,7 @@ jobs:
           # Copy the Git Auth from the local config
           git config --global "http.https://github.com/.extraheader" \
             "$(git config --local --get http.https://github.com/.extraheader)"
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v6
         with:
           version: 11
       - name: Install Node
