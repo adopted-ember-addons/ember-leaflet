@@ -77,7 +77,7 @@
     "qunit": "^2.24.1",
     "qunit-dom": "^3.4.0",
     "sass": "^1.49.7",
-    "stylelint": "^16.19.1",
+    "stylelint": "^17.0.0",
     "stylelint-config-standard-scss": "^17.0.0",
     "webpack": "^5.99.7"
   },
