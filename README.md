@@ -1,12 +1,15 @@
 # ember-leaflet [![CI](https://github.com/miguelcobain/ember-leaflet/workflows/CI/badge.svg)](https://github.com/miguelcobain/ember-leaflet/actions?query=workflow%3ACI) [![Ember Observer Score](http://emberobserver.com/badges/ember-leaflet.svg)](http://emberobserver.com/addons/ember-leaflet) [![npm version](https://badge.fury.io/js/ember-leaflet.svg)](https://badge.fury.io/js/ember-leaflet)
 
-Ember-Leaflet aims to make working with Leaflet layers in your Ember app as easy, declarative and composable as templates make working with DOM.
+## Compatibility
+
+- Ember.js v4.12 or above
+- Ember CLI v4.12 or above
+- Leaflet v1
+- Node.js v22 or above
 
 ## Installation
 
-Ember Leaflet requires Ember 4.12+.
-
-To install it run:
+To install Ember Leaflet run:
 
 ```
 ember install ember-leaflet

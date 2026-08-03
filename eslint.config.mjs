@@ -70,15 +70,20 @@ export default [
     }
   },
   {
+    ...qunit.configs.recommended,
     files: ['tests/**/*-test.{js,gjs}'],
     plugins: {
       qunit
+    },
+    rules: {
+      'qunit/require-expect': 'warn'
     }
   },
   /**
    * CJS node files
    */
   {
+    ...n.configs['flat/recommended-script'],
     files: [
       '**/*.cjs',
       'blueprints/**/*.js',
@@ -108,6 +113,7 @@ export default [
    * ESM node files
    */
   {
+    ...n.configs['flat/recommended-module'],
     files: ['**/*.mjs'],
     plugins: {
       n
