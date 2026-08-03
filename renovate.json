@@ -11,8 +11,15 @@
       "automerge": true
     },
     {
-      "matchPackageNames": ["@ember/test-helpers", "ember-qunit"],
-      "matchPackagePatterns": ["^eslint", "^prettier", "^stylelint", "^qunit", "^ember-template-lint"],
+      "matchPackageNames": [
+        "@ember/test-helpers",
+        "ember-qunit",
+        "/^eslint/",
+        "/^prettier/",
+        "/^stylelint/",
+        "/^qunit/",
+        "/^ember-template-lint/"
+      ],
       "automerge": true
     }
   ]
