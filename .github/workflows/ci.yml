@@ -92,8 +92,7 @@ jobs:
     if: github.event_name == 'push' && github.ref == 'refs/heads/master'
     steps:
       - name: Check out a copy of the repo
-        uses: actions/checkout@v5
-
+        uses: actions/checkout@v7
       - name: Set up Git user
         run: |
           # Set up a Git user for committing
@@ -101,7 +100,7 @@ jobs:
           git config --global user.email "actions@users.noreply.github.com"
           # Copy the Git Auth from the local config
           git config --global "http.https://github.com/.extraheader" \
-            "$(git config --local --get http.https://github.com/.extraheader)"
+            "AUTHORIZATION: basic $(echo -n "x-access-token:${GITHUB_TOKEN}" | base64 -w0)"
       - uses: pnpm/action-setup@v6
       - name: Install Node
         uses: actions/setup-node@v7
