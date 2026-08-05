@@ -8,7 +8,7 @@ module.exports = function (deployTarget) {
 
     git: {
       enabled: true,
-      repo: 'https://github.com/miguelcobain/ember-leaflet.git'
+      repo: 'https://github.com/adopted-ember-addons/ember-leaflet.git'
     }
   };
 
