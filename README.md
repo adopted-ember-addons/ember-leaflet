@@ -1,4 +1,4 @@
-# ember-leaflet [![CI](https://github.com/miguelcobain/ember-leaflet/workflows/CI/badge.svg)](https://github.com/miguelcobain/ember-leaflet/actions?query=workflow%3ACI) [![Ember Observer Score](http://emberobserver.com/badges/ember-leaflet.svg)](http://emberobserver.com/addons/ember-leaflet) [![npm version](https://badge.fury.io/js/ember-leaflet.svg)](https://badge.fury.io/js/ember-leaflet)
+# ember-leaflet [![CI](https://github.com/adopted-ember-addons/ember-leaflet/workflows/CI/badge.svg)](https://github.com/adopted-ember-addons/ember-leaflet/actions?query=workflow%3ACI) [![Ember Observer Score](http://emberobserver.com/badges/ember-leaflet.svg)](http://emberobserver.com/addons/ember-leaflet) [![npm version](https://badge.fury.io/js/ember-leaflet.svg)](https://badge.fury.io/js/ember-leaflet)
 
 ## Compatibility
 
