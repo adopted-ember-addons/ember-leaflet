@@ -11,7 +11,7 @@
     "maps"
   ],
   "homepage": "https://adopted-ember-addons.github.io/ember-leaflet/",
-  "repository": "https://github.com/miguelcobain/ember-leaflet",
+  "repository": "https://github.com/adopted-ember-addons/ember-leaflet",
   "license": "MIT",
   "author": "Miguel Andrade <jmandrade0@gmail.com>",
   "directories": {
