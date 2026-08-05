@@ -23,7 +23,7 @@ This will also add the `leaflet` package to your project.
 
 ## Usage
 
-Documentation and examples are hosted at [https://miguelcobain.github.io/ember-leaflet/](https://miguelcobain.github.io/ember-leaflet/).
+Documentation and examples are hosted at [https://adopted-ember-addons.github.io/ember-leaflet/](https://adopted-ember-addons.github.io/ember-leaflet/).
 Please file any issues if you see that something can be improved.
 
 #### Production Builds

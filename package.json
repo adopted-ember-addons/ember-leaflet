@@ -10,7 +10,7 @@
     "mapping",
     "maps"
   ],
-  "homepage": "https://miguelcobain.github.io/ember-leaflet/",
+  "homepage": "https://adopted-ember-addons.github.io/ember-leaflet/",
   "repository": "https://github.com/miguelcobain/ember-leaflet",
   "license": "MIT",
   "author": "Miguel Andrade <jmandrade0@gmail.com>",
@@ -139,7 +139,7 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
-    "demoURL": "https://miguelcobain.github.io/ember-leaflet/"
+    "demoURL": "https://adopted-ember-addons.github.io/ember-leaflet/"
   },
   "fastbootDependencies": [
     "crypto"
