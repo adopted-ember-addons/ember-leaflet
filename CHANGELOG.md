@@ -1,5 +1,45 @@
 # ember-leaflet changelog
 
+## Release (2026-08-08)
+
+* ember-leaflet 6.0.0 (major)
+
+#### :boom: Breaking Change
+* `ember-leaflet`
+  * [#770](https://github.com/adopted-ember-addons/ember-leaflet/pull/770) drop support for Leaflet < 1.0 ([@jelhan](https://github.com/jelhan))
+  * [#769](https://github.com/adopted-ember-addons/ember-leaflet/pull/769) drop support for Ember < 4.12 ([@jelhan](https://github.com/jelhan))
+  * [#719](https://github.com/adopted-ember-addons/ember-leaflet/pull/719) Drop name field from component registry entries ([@jelhan](https://github.com/jelhan))
+  * [#710](https://github.com/adopted-ember-addons/ember-leaflet/pull/710) Drop support for Ember < 3.28 ([@jelhan](https://github.com/jelhan))
+  * [#709](https://github.com/adopted-ember-addons/ember-leaflet/pull/709) fix Embroider compatbility and add ember-auto-import v2 as dependency ([@jelhan](https://github.com/jelhan))
+  * [#708](https://github.com/adopted-ember-addons/ember-leaflet/pull/708) Drop support for node < 22 and migrate to PNPM ([@jelhan](https://github.com/jelhan))
+
+#### :rocket: Enhancement
+* `ember-leaflet`
+  * [#722](https://github.com/adopted-ember-addons/ember-leaflet/pull/722) Move @glimmer/component and @glimmer/tracking to devDependencies ([@jelhan](https://github.com/jelhan))
+  * [#718](https://github.com/adopted-ember-addons/ember-leaflet/pull/718) Add Ember 6.12 LTS compatibility ([@jelhan](https://github.com/jelhan))
+  * [#713](https://github.com/adopted-ember-addons/ember-leaflet/pull/713) Remove @ember/string dependency ([@jelhan](https://github.com/jelhan))
+  * [#700](https://github.com/adopted-ember-addons/ember-leaflet/pull/700) support ember-render-helpers v1 ([@jelhan](https://github.com/jelhan))
+
+#### :memo: Documentation
+* `ember-leaflet`
+  * [#790](https://github.com/adopted-ember-addons/ember-leaflet/pull/790) Revert "migrate to actions/checkout@7 and adopt changed GitHub token handling" ([@jelhan](https://github.com/jelhan))
+  * [#788](https://github.com/adopted-ember-addons/ember-leaflet/pull/788) migrate to actions/checkout@7 and adopt changed GitHub token handling ([@jelhan](https://github.com/jelhan))
+  * [#786](https://github.com/adopted-ember-addons/ember-leaflet/pull/786) fix deployment of docs to GitHub Pages ([@jelhan](https://github.com/jelhan))
+  * [#785](https://github.com/adopted-ember-addons/ember-leaflet/pull/785) update GitHub Pages URL after moving to adopted-ember-addons ([@jelhan](https://github.com/jelhan))
+  * [#768](https://github.com/adopted-ember-addons/ember-leaflet/pull/768) fix docs page rendering and add regression tests ([@jelhan](https://github.com/jelhan))
+
+#### :house: Internal
+* `ember-leaflet`
+  * [#792](https://github.com/adopted-ember-addons/ember-leaflet/pull/792) Prettier ignore changelog generated automatically by release-plan ([@jelhan](https://github.com/jelhan))
+  * [#779](https://github.com/adopted-ember-addons/ember-leaflet/pull/779) setup release-plan ([@jelhan](https://github.com/jelhan))
+  * [#757](https://github.com/adopted-ember-addons/ember-leaflet/pull/757) Upgrade with Ember CLI v6.12 blueprints ([@jelhan](https://github.com/jelhan))
+  * [#758](https://github.com/adopted-ember-addons/ember-leaflet/pull/758) Upgrade with Ember CLI v6.4 blueprints ([@jelhan](https://github.com/jelhan))
+  * [#717](https://github.com/adopted-ember-addons/ember-leaflet/pull/717) Configure RenovateBot automerge ([@jelhan](https://github.com/jelhan))
+  * [#702](https://github.com/adopted-ember-addons/ember-leaflet/pull/702) Upgrade with Ember CLI v5.12 blueprints ([@jelhan](https://github.com/jelhan))
+
+#### Committers: 1
+- Jeldrik Hanschke ([@jelhan](https://github.com/jelhan))
+
 ### 5.0.2
 
 - fix incorrect `_close()` call on leaflet 1.8.0. Update project for leaflet 1.8.0 compatibility. ([6ab9646](https://github.com/miguelcobain/ember-leaflet/commit/6ab9646a07765db7ef98313929a07538a215cc3f))
