@@ -5,6 +5,7 @@
 /blueprints/*/files/
 
 # compiled output
+/CHANGELOG.md
 /dist/
 
 # misc
