@@ -25,7 +25,7 @@ importers:
         version: 2.13.1(supports-color@10.2.2)(webpack@5.109.2(clean-css@5.3.3)(csso@3.5.1)(postcss@8.5.26)(uglify-js@3.19.3))
       ember-cli-babel:
         specifier: ^8.3.1
-        version: 8.3.1(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
+        version: 8.3.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
       ember-cli-htmlbars:
         specifier: ^7.0.1
         version: 7.0.1(@babel/core@7.29.7(supports-color@10.2.2))(ember-source@6.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(rsvp@4.8.5)(supports-color@10.2.2))(supports-color@10.2.2)
@@ -2643,11 +2643,11 @@ packages:
     resolution: {integrity: sha512-6IXBgfRt7HZ61g67ssBc6lBb3Smw3DPZ9dEYirgtvXWpRZ2A9M22nxy6opEwJDgDJzlu/bB7ToppW33OFkA1gA==}
     engines: {node: '>= 6'}
 
-  broccoli-babel-transpiler@8.0.2:
-    resolution: {integrity: sha512-XIGsUyJgehSRNVVrOnRuW+tijYBqkoGEONc/UHkiOBW+C0trPv9c/Icc/Cf+2l1McQlHW/Mc6SksHg6qFlEClg==}
+  broccoli-babel-transpiler@8.1.0:
+    resolution: {integrity: sha512-ca3QcjNzX7umqQ06PeDDjAf2WJ9DcgzoECuXT638YDpNC+gCJeoDDKYk0KieeE7VeX7YHyrkfyynQzMvZZ/4ew==}
     engines: {node: 16.* || >= 18}
     peerDependencies:
-      '@babel/core': ^7.17.9
+      '@babel/core': ^7.17.9 || ^8.0.0
 
   broccoli-bridge@1.0.0:
     resolution: {integrity: sha512-WvU6T6AJrtpFSScgyCVEFAajPAJTOYYIIpGvs/PbkSq9OUBvI3/IEUHg+Ipx376M/clGFwa7K9crEtpauqC66A==}
@@ -2804,6 +2804,9 @@ packages:
   broccoli-stew@3.0.0:
     resolution: {integrity: sha512-NXfi+Vas24n3Ivo21GvENTI55qxKu7OwKRnCLWXld8MiLiQKQlWIq28eoARaFj0lTUFwUa4jKZeA7fW9PiWQeg==}
     engines: {node: 8.* || >= 10.*}
+
+  broccoli-string-replace@0.1.2:
+    resolution: {integrity: sha512-QHESTrrrPlKuXQNWsvXawSQbV2g34wCZ5oKgd6bntdOuN8VHxbg1BCBHqVY5HxXJhWelimgGxj3vI7ECkyij8g==}
 
   broccoli-svg-optimizer@2.1.0:
     resolution: {integrity: sha512-fGB4WUF8R9tHUf6M2t8F38ILLdVy+CQVaOFwHavaaXPD0kkoTsHjBE7erQZuk0PrioqLIoyA9dkeNMlGwohReA==}
@@ -3769,8 +3772,8 @@ packages:
     resolution: {integrity: sha512-JJYeYjiz/JTn34q7F5DSOjkkZqy8qwFOOxXfE6pe9yEJqWGu4qErKxlz8I22JoVEQ/aBUO+OcKTpmctvykM9YA==}
     engines: {node: 6.* || 8.* || >= 10.*}
 
-  ember-cli-babel@8.3.1:
-    resolution: {integrity: sha512-Pxm5JP0jQ6fCBlXuh1BFmhrg2/5YXjhf16JI/n8ReOR6Nl+fEbudMpdO69LlqZRsMmTgdjCRmfSxMh26Wsw/rw==}
+  ember-cli-babel@8.3.2:
+    resolution: {integrity: sha512-Thvqx+jwGYhimYbkkL0gwhwMlhghTIR3uQ9R0yNaTjBIttZIfSWJ/2W40kaJlwhnsElXq7zbFjZcff22p6nzCg==}
     engines: {node: 16.* || 18.* || >= 20}
     peerDependencies:
       '@babel/core': ^7.12.0
@@ -9411,7 +9414,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.29.7(supports-color@10.2.2)
       '@embroider/macros': 1.20.6(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
-      ember-cli-babel: 8.3.1(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
+      ember-cli-babel: 8.3.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
       ember-modifier-manager-polyfill: 1.2.0(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
       ember-source: 6.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(rsvp@4.8.5)(supports-color@10.2.2)
     transitivePeerDependencies:
@@ -9450,7 +9453,7 @@ snapshots:
       '@embroider/shared-internals': 3.1.1(supports-color@10.2.2)
       assert-never: 1.4.0
       babel-import-util: 3.0.1
-      ember-cli-babel: 8.3.1(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
+      ember-cli-babel: 8.3.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
       find-up: 5.0.0
       lodash: 4.18.1
       resolve: 1.22.12
@@ -11582,7 +11585,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  broccoli-babel-transpiler@8.0.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2):
+  broccoli-babel-transpiler@8.1.0(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2):
     dependencies:
       '@babel/core': 7.29.7(supports-color@10.2.2)
       broccoli-persistent-filter: 3.1.3(supports-color@10.2.2)
@@ -11998,6 +12001,13 @@ snapshots:
       rsvp: 4.8.5
       symlink-or-copy: 1.3.1
       walk-sync: 1.1.4
+    transitivePeerDependencies:
+      - supports-color
+
+  broccoli-string-replace@0.1.2(supports-color@10.2.2):
+    dependencies:
+      broccoli-persistent-filter: 1.4.6(supports-color@10.2.2)
+      minimatch: 3.1.5
     transitivePeerDependencies:
       - supports-color
 
@@ -12954,7 +12964,7 @@ snapshots:
       chalk: 4.1.2
       ember-auto-import: 2.13.1(supports-color@10.2.2)(webpack@5.109.2(clean-css@5.3.3)(csso@3.5.1)(postcss@8.5.26)(uglify-js@3.19.3))
       ember-cli-autoprefixer: 2.0.0(supports-color@10.2.2)
-      ember-cli-babel: 8.3.1(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
+      ember-cli-babel: 8.3.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
       ember-cli-clipboard: 1.3.0(@babel/core@7.29.7(supports-color@10.2.2))(@ember/test-helpers@5.4.3(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(supports-color@10.2.2)(webpack@5.109.2(clean-css@5.3.3)(csso@3.5.1)(postcss@8.5.26)(uglify-js@3.19.3))
       ember-cli-fastboot: 4.1.5(ember-source@6.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(rsvp@4.8.5)(supports-color@10.2.2))(supports-color@10.2.2)
       ember-cli-htmlbars: 6.3.0(supports-color@10.2.2)
@@ -13078,7 +13088,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-cli-babel@8.3.1(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2):
+  ember-cli-babel@8.3.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2):
     dependencies:
       '@babel/core': 7.29.7(supports-color@10.2.2)
       '@babel/helper-compilation-targets': 7.29.7
@@ -13091,16 +13101,17 @@ snapshots:
       '@babel/plugin-transform-runtime': 7.29.7(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
       '@babel/plugin-transform-typescript': 7.29.7(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
       '@babel/preset-env': 7.29.7(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
-      '@babel/runtime': 7.12.18
+      '@babel/runtime': 7.29.7
       amd-name-resolver: 1.3.1
       babel-plugin-debug-macros: 0.3.4(@babel/core@7.29.7(supports-color@10.2.2))
       babel-plugin-ember-data-packages-polyfill: 0.1.2
       babel-plugin-ember-modules-api-polyfill: 3.5.0
       babel-plugin-module-resolver: 5.0.3
-      broccoli-babel-transpiler: 8.0.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
+      broccoli-babel-transpiler: 8.1.0(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
       broccoli-debug: 0.6.5(supports-color@10.2.2)
       broccoli-funnel: 3.0.8(supports-color@10.2.2)
       broccoli-source: 3.0.1
+      broccoli-string-replace: 0.1.2(supports-color@10.2.2)
       calculate-cache-key-for-tree: 2.0.0
       clone: 2.1.2
       ember-cli-babel-plugin-helpers: 1.1.1
@@ -13201,7 +13212,7 @@ snapshots:
   ember-cli-deprecation-workflow@3.4.0(ember-source@6.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(rsvp@4.8.5)(supports-color@10.2.2))(supports-color@10.2.2):
     dependencies:
       '@babel/core': 7.29.7(supports-color@10.2.2)
-      ember-cli-babel: 8.3.1(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
+      ember-cli-babel: 8.3.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
       ember-source: 6.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(rsvp@4.8.5)(supports-color@10.2.2)
     transitivePeerDependencies:
       - supports-color
@@ -13611,7 +13622,7 @@ snapshots:
       '@ember/render-modifiers': 2.1.0(@babel/core@7.29.7(supports-color@10.2.2))(ember-source@6.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(rsvp@4.8.5)(supports-color@10.2.2))(supports-color@10.2.2)
       '@glimmer/component': 1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
       ember-auto-import: 2.13.1(supports-color@10.2.2)(webpack@5.109.2(clean-css@5.3.3)(csso@3.5.1)(postcss@8.5.26)(uglify-js@3.19.3))
-      ember-cli-babel: 8.3.1(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
+      ember-cli-babel: 8.3.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
       ember-cli-htmlbars: 6.3.0(supports-color@10.2.2)
       ember-element-helper: 0.8.8(supports-color@10.2.2)
       ember-source: 6.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(rsvp@4.8.5)(supports-color@10.2.2)
@@ -13719,7 +13730,7 @@ snapshots:
       '@babel/core': 7.29.7(supports-color@10.2.2)
       '@embroider/macros': 1.20.6(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
       '@embroider/util': 1.13.5(@babel/core@7.29.7(supports-color@10.2.2))(ember-source@6.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(rsvp@4.8.5)(supports-color@10.2.2))(supports-color@10.2.2)
-      ember-cli-babel: 8.3.1(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
+      ember-cli-babel: 8.3.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
       ember-cli-htmlbars: 6.3.0(supports-color@10.2.2)
       ember-cli-version-checker: 5.1.2(supports-color@10.2.2)
       ember-wormhole: 0.6.1(supports-color@10.2.2)
@@ -13810,7 +13821,7 @@ snapshots:
       broccoli-funnel: 3.0.8(supports-color@10.2.2)
       broccoli-merge-trees: 4.2.0(supports-color@10.2.2)
       chalk: 4.1.2
-      ember-cli-babel: 8.3.1(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
+      ember-cli-babel: 8.3.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
       ember-cli-get-component-path-option: 1.0.0
       ember-cli-is-package-missing: 1.0.0
       ember-cli-normalize-entity-name: 1.0.0(supports-color@10.2.2)
@@ -13869,7 +13880,7 @@ snapshots:
       '@babel/core': 7.29.7(supports-color@10.2.2)
       '@ember/render-modifiers': 3.0.0(ember-source@6.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(rsvp@4.8.5)(supports-color@10.2.2))(supports-color@10.2.2)
       ember-auto-import: 2.13.1(supports-color@10.2.2)(webpack@5.109.2(clean-css@5.3.3)(csso@3.5.1)(postcss@8.5.26)(uglify-js@3.19.3))
-      ember-cli-babel: 8.3.1(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
+      ember-cli-babel: 8.3.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
       ember-cli-htmlbars: 6.3.0(supports-color@10.2.2)
       ember-source: 6.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2))(rsvp@4.8.5)(supports-color@10.2.2)
       tether: 2.0.0
