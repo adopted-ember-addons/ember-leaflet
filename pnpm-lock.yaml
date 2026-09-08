@@ -197,7 +197,7 @@ importers:
         version: 0.20.0(supports-color@10.2.2)
       sass:
         specifier: ^1.49.7
-        version: 1.103.1
+        version: 1.104.0
       stylelint:
         specifier: ^17.0.0
         version: 17.14.1(supports-color@10.2.2)(typescript@6.0.3)
@@ -7276,8 +7276,8 @@ packages:
     engines: {node: 10.* || >= 12.*}
     hasBin: true
 
-  sass@1.103.1:
-    resolution: {integrity: sha512-9icZURbP51S6S0QGoyaeqk9uB06GNWxsFYWfH5RgpFgqK5FA8tJcM3AdVxrZEVJ7dz+L87nG95gBKf4VuaMHGw==}
+  sass@1.104.0:
+    resolution: {integrity: sha512-btHMApW2bgolvClhRW8AlQJzgI9lUB3pPSofBQQT+E46GWvf9o0TVQ13SYv5riWZVFyPN+JNz3TKW9XhBlc10w==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -9327,7 +9327,7 @@ snapshots:
     dependencies:
       '@csstools/sass-import-resolve': 1.0.0
       postcss: 8.5.26
-      sass: 1.103.1
+      sass: 1.104.0
       source-map: 0.7.6
 
   '@csstools/sass-import-resolve@1.0.0': {}
@@ -17525,7 +17525,7 @@ snapshots:
       minimist: 1.2.8
       walker: 1.0.8
 
-  sass@1.103.1:
+  sass@1.104.0:
     dependencies:
       chokidar: 5.0.0
       immutable: 5.1.9
