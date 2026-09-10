@@ -65,7 +65,7 @@ importers:
         version: 4.1.2(supports-color@10.2.2)
       '@embroider/macros':
         specifier: ^1.20.2
-        version: 1.20.7(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
+        version: 1.21.1(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
       '@embroider/test-setup':
         specifier: ^4.0.0
         version: 4.0.0
@@ -950,6 +950,15 @@ packages:
 
   '@embroider/macros@1.20.7':
     resolution: {integrity: sha512-B9KJuqeODyad6rWYFK4yKKKSR9H2OsClMzHREmEx94FrwA9/PS37ebTHWeuzLKspas7UclpYE8sBmxSbi/pWig==}
+    engines: {node: 12.* || 14.* || >= 16}
+    peerDependencies:
+      '@glint/template': ^1.0.0
+    peerDependenciesMeta:
+      '@glint/template':
+        optional: true
+
+  '@embroider/macros@1.21.1':
+    resolution: {integrity: sha512-57jR1QobqR3NKZX8bGi8ljONPfQdmQ01/LAzkwx/InGySyiC1HkvgPT4NdNWAFtK5Q00SYGYMQzJXZg3/zh9cQ==}
     engines: {node: 12.* || 14.* || >= 16}
     peerDependencies:
       '@glint/template': ^1.0.0
@@ -9459,6 +9468,20 @@ snapshots:
       - supports-color
 
   '@embroider/macros@1.20.7(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)':
+    dependencies:
+      '@embroider/shared-internals': 3.2.0(supports-color@10.2.2)
+      assert-never: 1.4.0
+      babel-import-util: 3.0.1
+      ember-cli-babel: 8.3.2(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)
+      find-up: 5.0.0
+      lodash: 4.18.1
+      resolve: 1.22.12
+      semver: 7.8.5
+    transitivePeerDependencies:
+      - '@babel/core'
+      - supports-color
+
+  '@embroider/macros@1.21.1(@babel/core@7.29.7(supports-color@10.2.2))(supports-color@10.2.2)':
     dependencies:
       '@embroider/shared-internals': 3.2.0(supports-color@10.2.2)
       assert-never: 1.4.0
