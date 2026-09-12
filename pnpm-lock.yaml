@@ -197,7 +197,7 @@ importers:
         version: 0.20.0(supports-color@10.2.2)
       sass:
         specifier: ^1.49.7
-        version: 1.104.0
+        version: 1.104.1
       stylelint:
         specifier: ^17.0.0
         version: 17.15.0(supports-color@10.2.2)(typescript@6.0.3)
@@ -7278,6 +7278,11 @@ packages:
 
   sass@1.104.0:
     resolution: {integrity: sha512-btHMApW2bgolvClhRW8AlQJzgI9lUB3pPSofBQQT+E46GWvf9o0TVQ13SYv5riWZVFyPN+JNz3TKW9XhBlc10w==}
+    engines: {node: '>=20.19.0'}
+    hasBin: true
+
+  sass@1.104.1:
+    resolution: {integrity: sha512-yDA+1aIG3EHgN4V/BvuhCvu61FF6hEd4e+9DxikUm9U0CAGuvdIZ/UYy7qbOxjhbbWQraoyLlMuzdRGOSV5Bmw==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -17526,6 +17531,14 @@ snapshots:
       walker: 1.0.8
 
   sass@1.104.0:
+    dependencies:
+      chokidar: 5.0.0
+      immutable: 5.1.9
+      source-map-js: 1.2.1
+    optionalDependencies:
+      '@parcel/watcher': 2.6.0
+
+  sass@1.104.1:
     dependencies:
       chokidar: 5.0.0
       immutable: 5.1.9
