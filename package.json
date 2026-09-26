@@ -130,7 +130,7 @@
     "ember-source": ">= 4.12.0",
     "leaflet": ">= 1.0"
   },
-  "packageManager": "pnpm@11.28.0+sha512.8ed239371de82244b6cccf9e2023c18ea8439961f2ec3fe898913b9f7ee2e76ca0a45717580aca3c7997c135f6d4f5de4524cbeee1a2ccac430c03d134e2a48c",
+  "packageManager": "pnpm@12.6.0+sha512.3ef68f951cb111ac204b4a5a16f0b2ddf0da56a96e0413e81d855d9f0b55ef926714709028e1cd00c405c2c5fb7b9e8ec4dc46777c805d0373c2f2ff00fd20ec",
   "engines": {
     "node": "22 || 24 || >= 26"
   },
