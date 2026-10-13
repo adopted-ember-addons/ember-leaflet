@@ -57,8 +57,8 @@
     ]
   },
   "dependencies": {
-    "@babel/core": "^7.29.0",
-    "@babel/plugin-transform-class-static-block": "^7.29.7",
+    "@babel/core": "^8.0.0",
+    "@babel/plugin-transform-class-static-block": "^8.0.0",
     "broccoli-funnel": "^3.0.8",
     "broccoli-merge-trees": "^4.2.0",
     "ember-auto-import": "^2.13.1",
@@ -71,8 +71,8 @@
     "resolve": "^1.21.0"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.28.6",
-    "@babel/plugin-proposal-decorators": "^7.29.0",
+    "@babel/eslint-parser": "^8.0.0",
+    "@babel/plugin-proposal-decorators": "^8.0.0",
     "@ember/optional-features": "^3.0.0",
     "@ember/string": "^4.0.0",
     "@ember/test-helpers": "^5.4.1",
