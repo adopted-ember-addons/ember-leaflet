@@ -59,7 +59,7 @@
   "dependencies": {
     "@babel/core": "^7.29.0",
     "@babel/plugin-transform-class-static-block": "^7.29.7",
-    "broccoli-funnel": "^3.0.8",
+    "broccoli-funnel": "^4.0.0",
     "broccoli-merge-trees": "^4.2.0",
     "ember-auto-import": "^2.13.1",
     "ember-cli-babel": "^8.3.1",
