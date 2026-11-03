@@ -1,5 +1,10 @@
 # ember-leaflet changelog
 
+
+
+
+
+
 ## Release (2026-08-08)
 
 * ember-leaflet 6.0.0 (major)
